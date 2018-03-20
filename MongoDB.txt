@@ -1,0 +1,42 @@
+//Show databases
+
+show dbs;
+
+
+//Utilitzar Databases
+
+use nomBaseDades
+
+//Insertar
+
+db.test.save({prueba: 1, Nom: "Iker"})
+
+
+//Select General
+
+db.test.find()
+
+
+
+//Select mes gran de
+
+db.test.find({"id": {$gt: 50}})
+
+
+//Select mes petit de
+
+db.test.find({"id": {$lt:51}})
+
+
+
+//Or
+
+
+db . restaurantes . find ({  $ o :  [  {  "cuisine" :  "Italian"  },  {  "address.zipcode" :  "10075"  }  ]  } )
+
+
+
+
+//Pagina web amb informacio de MongoDB
+
+https://stackoverflow.com/questions/47047803/connecting-mongodb-java-via-eclipes
