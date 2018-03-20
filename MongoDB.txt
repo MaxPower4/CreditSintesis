@@ -39,8 +39,4 @@ db . restaurantes . find ({  $ o :  [  {  "cuisine" :  "Italian"  },  {  "addres
 
 //Pagina web amb informacio de MongoDB
 
-https://stackoverflow.com/questions/47047803/connecting-mongodb-java-via-eclipes
-
-
-
-honolulu
+https://stackoverflow.com/questions/47047803/connecting-mongodb-java-via-eclipe
