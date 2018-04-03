@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<saga-centre versio="1.0" codi-exportacio="250067811444055772659" data-exportacio="05/10/2015" data-importacio="">
+  <centre codi="25006781" nom="Alfons Costafreda" adreca="ctra. de Tarragona, s/n" telefon="973312204" curs="2015/2016"/>
+  <personal>
+    <personal id="138603698" tipus="DOCENT" nom="NOM PROFE 1" cognom1="COGNOM1 PROFE 1" cognom2="COGNOM2 PROFE 1" documentidentitat="038603698A"/>
+    <personal id="152029430" tipus="DOCENT" nom="NOM PROFE 2" cognom1="COGNOM1 PROFE 2" cognom2="COGNOM2 PROFE 2" documentidentitat="052029430B"/>
+    <personal id="152029447" tipus="DOCENT" nom="NOM PROFE 3" cognom1="COGNOM1 PROFE 3" cognom2="COGNOM2 PROFE 3" documentidentitat="052029447Z"/>
+    <personal id="152115893" tipus="DOCENT" nom="NOM PROFE 4" cognom1="COGNOM1 PROFE 4" cognom2="COGNOM2 PROFE 4" documentidentitat="025161971V"/>
+    <personal id="162302420" tipus="DOCENT" nom="NOM PROFE 5" cognom1="COGNOM1 PROFE 5" cognom2="COGNOM2 PROFE 5" documentidentitat="052115893J"/>
+    <personal id="170094841" tipus="DOCENT" nom="NOM PROFE 6" cognom1="COGNOM1 PROFE 6" cognom2="COGNOM2 PROFE 6" documentidentitat="040847303Q"/>
+    <personal id="189531624" tipus="DOCENT" nom="NOM PROFE 7" cognom1="COGNOM1 PROFE 7" cognom2="COGNOM2 PROFE 7" documentidentitat="089531624E"/>
+    <personal id="189531854" tipus="DOCENT" nom="NOM PROFE 8" cognom1="COGNOM1 PROFE 8" cognom2="COGNOM2 PROFE 8" documentidentitat="040976860Z"/>
+    <personal id="189531881" tipus="DOCENT" nom="NOM PROFE 9" cognom1="COGNOM1 PROFE 9" cognom2="COGNOM2 PROFE 9" documentidentitat="089531854H"/>
+    <personal id="189531898" tipus="DOCENT" nom="NOM PROFE 10" cognom1="COGNOM1 PROFE 10" cognom2="COGNOM2 PROFE 10" documentidentitat="089531898W"/>
+    <personal id="189531926" tipus="DOCENT" nom="NOM PROFE 11" cognom1="COGNOM1 PROFE 11" cognom2="COGNOM2 PROFE 11" documentidentitat="089531926B"/>
+    <personal id="189531936" tipus="DOCENT" nom="NOM PROFE 12" cognom1="COGNOM1 PROFE 12" cognom2="COGNOM2 PROFE 12" documentidentitat="089531936V"/>
+    <personal id="189531958" tipus="DOCENT" nom="NOM PROFE 13" cognom1="COGNOM1 PROFE 13" cognom2="COGNOM2 PROFE 13" documentidentitat="078071786B"/>
+    <personal id="189645483" tipus="DOCENT" nom="NOM PROFE 14" cognom1="COGNOM1 PROFE 14" cognom2="COGNOM2 PROFE 14" documentidentitat="089531958G"/>
+    <personal id="189686510" tipus="DOCENT" nom="NOM PROFE 15" cognom1="COGNOM1 PROFE 15" cognom2="COGNOM2 PROFE 15" documentidentitat="089686510H"/>
+    <personal id="231035765" tipus="DOCENT" nom="NOM PROFE 16" cognom1="COGNOM1 PROFE 16" cognom2="COGNOM2 PROFE 16" documentidentitat="031035765M"/>
+    <personal id="254019752" tipus="DOCENT" nom="NOM PROFE 17" cognom1="COGNOM1 PROFE 17" cognom2="COGNOM2 PROFE 17" documentidentitat="054019752M"/>
+    <personal id="25850705817" tipus="DOCENT" nom="NOM PROFE 18" cognom1="COGNOM1 PROFE 18" cognom2="COGNOM2 PROFE 18" documentidentitat="058507058E"/>
+    <personal id="25862276530" tipus="DOCENT" nom="NOM PROFE 19" cognom1="COGNOM1 PROFE 19" cognom2="COGNOM2 PROFE 19" documentidentitat="058622765K"/>
+    <personal id="25954283638" tipus="DOCENT" nom="NOM PROFE 20" cognom1="COGNOM1 PROFE 20" cognom2="COGNOM2 PROFE 20" documentidentitat="040870368N"/>
+    <personal id="25954283690" tipus="DOCENT" nom="NOM PROFE 21" cognom1="COGNOM1 PROFE 21" cognom2="COGNOM2 PROFE 21" documentidentitat="059542836F"/>
+    <personal id="25954283706" tipus="DOCENT" nom="NOM PROFE 22" cognom1="COGNOM1 PROFE 22" cognom2="COGNOM2 PROFE 22" documentidentitat="059542837D"/>
+    <personal id="25964585941" tipus="DOCENT" nom="NOM PROFE 23" cognom1="COGNOM1 PROFE 23" cognom2="COGNOM2 PROFE 23" documentidentitat="059645859A"/>
+    <personal id="25971815600" tipus="DOCENT" nom="NOM PROFE 24" cognom1="COGNOM1 PROFE 24" cognom2="COGNOM2 PROFE 24" documentidentitat="059718156H"/>
+    <personal id="25971815604" tipus="DOCENT" nom="NOM PROFE 25" cognom1="COGNOM1 PROFE 25" cognom2="COGNOM2 PROFE 25" documentidentitat="059718157S"/>
+    <personal id="25971815611" tipus="DOCENT" nom="NOM PROFE 26" cognom1="COGNOM1 PROFE 26" cognom2="COGNOM2 PROFE 26" documentidentitat="059718158A"/>
+    <personal id="25971815614" tipus="DOCENT" nom="NOM PROFE 27" cognom1="COGNOM1 PROFE 27" cognom2="COGNOM2 PROFE 27" documentidentitat="059718159M"/>
+    <personal id="25971815618" tipus="DOCENT" nom="NOM PROFE 28" cognom1="COGNOM1 PROFE 28" cognom2="COGNOM2 PROFE 28" documentidentitat="059718156K"/>
+    <personal id="25971815621" tipus="DOCENT" nom="NOM PROFE 29" cognom1="COGNOM1 PROFE 29" cognom2="COGNOM2 PROFE 29" documentidentitat="059718166H"/>
+    <personal id="25971815622" tipus="DOCENT" nom="NOM PROFE 30" cognom1="COGNOM1 PROFE 30" cognom2="COGNOM2 PROFE 30" documentidentitat="059718156V"/>
+    <personal id="25971815625" tipus="DOCENT" nom="NOM PROFE 31" cognom1="COGNOM1 PROFE 31" cognom2="COGNOM2 PROFE 31" documentidentitat="059718156Z"/>
+    <personal id="25971815626" tipus="DOCENT" nom="NOM PROFE 32" cognom1="COGNOM1 PROFE 32" cognom2="COGNOM2 PROFE 32" documentidentitat="059718156L"/>
+    <personal id="25971815629" tipus="DOCENT" nom="NOM PROFE 33" cognom1="COGNOM1 PROFE 33" cognom2="COGNOM2 PROFE 33" documentidentitat="049718156B"/>
+    <personal id="25971815630" tipus="DOCENT" nom="NOM PROFE 34" cognom1="COGNOM1 PROFE 34" cognom2="COGNOM2 PROFE 34" documentidentitat="045718156X"/>
+    <personal id="25971815631" tipus="DOCENT" nom="NOM PROFE 35" cognom1="COGNOM1 PROFE 35" cognom2="COGNOM2 PROFE 35" documentidentitat="047718156J"/>
+    <personal id="25971815637" tipus="NO DOCENT" nom="NOM PAS 1" cognom1="COGNOM1 PAS 1" cognom2="COGNOM2 PAS 1" documentidentitat="041718156B"/>
+    <personal id="25971815638" tipus="DOCENT" nom="NOM PROFE 36" cognom1="COGNOM1 PROFE 36" cognom2="COGNOM2 PROFE 36" documentidentitat="043718156T"/>
+    <personal id="25971815639" tipus="NO DOCENT" nom="NOM PAS 2" cognom1="COGNOM1 PAS 2" cognom2="COGNOM2 PAS 2" documentidentitat="046618156F"/>
+    <personal id="25971815640" tipus="DOCENT" nom="NOM PROFE 37" cognom1="COGNOM1 PROFE 37" cognom2="COGNOM2 PROFE 37" documentidentitat="045818156X"/>
+    <personal id="25971815641" tipus="DOCENT" nom="NOM PROFE 38" cognom1="COGNOM1 PROFE 38" cognom2="COGNOM2 PROFE 38" documentidentitat="059715456B"/>
+    <personal id="25971815642" tipus="DOCENT" nom="NOM PROFE 39" cognom1="COGNOM1 PROFE 39" cognom2="COGNOM2 PROFE 39" documentidentitat="040585439M"/>
+    <personal id="25971815652" tipus="DOCENT" nom="NOM PROFE 40" cognom1="COGNOM1 PROFE 40" cognom2="COGNOM2 PROFE 40" documentidentitat="040399851R"/>
+    <personal id="25971815657" tipus="DOCENT" nom="NOM PROFE 41" cognom1="COGNOM1 PROFE 41" cognom2="COGNOM2 PROFE 41" documentidentitat="072065426Y"/>
+    <personal id="25971815658" tipus="DOCENT" nom="NOM PROFE 42" cognom1="COGNOM1 PROFE 42" cognom2="COGNOM2 PROFE 42" documentidentitat="073064217X"/>
+    <personal id="25971815659" tipus="DOCENT" nom="NOM PROFE 43" cognom1="COGNOM1 PROFE 43" cognom2="COGNOM2 PROFE 43" documentidentitat="074075061H"/>
+    <personal id="25971815660" tipus="DOCENT" nom="NOM PROFE 44" cognom1="COGNOM1 PROFE 44" cognom2="COGNOM2 PROFE 44" documentidentitat="073075745R"/>
+    <personal id="25971815671" tipus="DOCENT" nom="NOM PROFE 45" cognom1="COGNOM1 PROFE 45" cognom2="COGNOM2 PROFE 45" documentidentitat="070796505Q"/>
+    <personal id="25971815677" tipus="DOCENT" nom="NOM PROFE 46" cognom1="COGNOM1 PROFE 46" cognom2="COGNOM2 PROFE 46" documentidentitat="073085847P"/>
+    <personal id="25971815697" tipus="NO DOCENT" nom="NOM PAS 3" cognom1="COGNOM1 PAS 3" cognom2="COGNOM2 PAS 3" documentidentitat="045883564F"/>
+    <personal id="25971815803" tipus="NO DOCENT" nom="NOM PAS 4" cognom1="COGNOM1 PAS 4" cognom2="COGNOM2 PAS 4" documentidentitat="072084520S"/>
+    <personal id="26012159925" tipus="DOCENT" nom="NOM PROFE 47" cognom1="COGNOM1 PROFE 47" cognom2="COGNOM2 PROFE 47" documentidentitat="042719788J"/>
+    <personal id="26012159935" tipus="DOCENT" nom="NOM PROFE 48" cognom1="COGNOM1 PROFE 48" cognom2="COGNOM2 PROFE 48" documentidentitat="042723091V"/>
+    <personal id="26018301996" tipus="DOCENT" nom="NOM PROFE 49" cognom1="COGNOM1 PROFE 49" cognom2="COGNOM2 PROFE 49" documentidentitat="041723657T"/>
+    <personal id="26018828258" tipus="NO DOCENT" nom="NOM PAS 5" cognom1="COGNOM1 PAS 5" cognom2="COGNOM2 PAS 5" documentidentitat="046845893E"/>
+    <personal id="26018828301" tipus="NO DOCENT" nom="NOM PAS 6" cognom1="COGNOM1 PAS 6" cognom2="COGNOM2 PAS 6" documentidentitat="041693413E"/>
+    <personal id="26018828318" tipus="DOCENT" nom="NOM PROFE 50" cognom1="COGNOM1 PROFE 50" cognom2="COGNOM2 PROFE 50" documentidentitat="076046098V"/>
+    <personal id="26018828320" tipus="DOCENT" nom="NOM PROFE 51" cognom1="COGNOM1 PROFE 51" cognom2="COGNOM2 PROFE 51" documentidentitat="078032457H"/>
+    <personal id="292100038" tipus="DOCENT" nom="NOM PROFE 52" cognom1="COGNOM1 PROFE 52" cognom2="COGNOM2 PROFE 52" documentidentitat="043340437C"/>
+    <personal id="292100063" tipus="DOCENT" nom="NOM PROFE 53" cognom1="COGNOM1 PROFE 53" cognom2="COGNOM2 PROFE 53" documentidentitat="073064232E"/>
+    <personal id="310184118" tipus="DOCENT" nom="NOM PROFE 54" cognom1="COGNOM1 PROFE 54" cognom2="COGNOM2 PROFE 54" documentidentitat="045737868E"/>
+    <personal id="374195102" tipus="DOCENT" nom="NOM PROFE 55" cognom1="COGNOM1 PROFE 55" cognom2="COGNOM2 PROFE 55" documentidentitat="043874739E"/>
+    <personal id="374199242" tipus="DOCENT" nom="NOM PROFE 56" cognom1="COGNOM1 PROFE 56" cognom2="COGNOM2 PROFE 56" documentidentitat="039255446E"/>
+    <personal id="406722802" tipus="DOCENT" nom="NOM PROFE 57" cognom1="COGNOM1 PROFE 57" cognom2="COGNOM2 PROFE 57" documentidentitat="042682230H"/>
+    <personal id="466259350" tipus="DOCENT" nom="NOM PROFE 58" cognom1="COGNOM1 PROFE 58" cognom2="COGNOM2 PROFE 58" documentidentitat="035721208Q"/>
+    <personal id="466259419" tipus="NO DOCENT" nom="NOM PAS 7" cognom1="COGNOM1 PAS 7" cognom2="COGNOM2 PAS 7" documentidentitat="073284944X"/>
+    <personal id="466259481" tipus="DOCENT" nom="NOM PROFE 59" cognom1="COGNOM1 PROFE 59" cognom2="COGNOM2 PROFE 59" documentidentitat="044855260V"/>
+    <personal id="567678613" tipus="DOCENT" nom="NOM PROFE 60" cognom1="COGNOM1 PROFE 60" cognom2="COGNOM2 PROFE 60" documentidentitat="072391270G"/>
+    <personal id="670037514" tipus="DOCENT" nom="NOM PROFE 61" cognom1="COGNOM1 PROFE 61" cognom2="COGNOM2 PROFE 61" documentidentitat="074074806C"/>
+    <personal id="670037591" tipus="DOCENT" nom="NOM PROFE 62" cognom1="COGNOM1 PROFE 62" cognom2="COGNOM2 PROFE 62" documentidentitat="043873691J"/>
+    <personal id="670038060" tipus="DOCENT" nom="NOM PROFE 63" cognom1="COGNOM1 PROFE 63" cognom2="COGNOM2 PROFE 63" documentidentitat="047694317K"/>
+  </personal>
+  <plans-estudi>
+    <pla-estudis id="00000000000000000000000000000000000000000004596626" etapa="CFPM" subetapa="FM10" nom="CFPM Soldadura i caldereria (LOE)">
+      <contingut id="189055116" codi="00101" nom="UF1. Interpretació gràfica" categoria="Crèdit" tipus="Lectiu"/>
+    </pla-estudis>
+    <pla-estudis id="00000000000000000000000000000000000000000004596632" etapa="CFPM" subetapa="IC10" nom="CFPM Sistemes microinformàtics i xarxes (LOE)">
+      <contingut id="189055103" codi="00702" nom="UF2. Correu electrònic i transmissió d&apos;arxius" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055104" codi="00703" nom="UF3. Servidor web i proxy" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055105" codi="00704" nom="UF4. Accés a sistemes remots" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055106" codi="00801" nom="UF1. Ofimàtica i eines web" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055107" codi="00802" nom="UF2. Gestors d&apos;arxius web" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055108" codi="00803" nom="UF3. Gestors de continguts" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055109" codi="00804" nom="UF4. Portals web d&apos;aprenentatge" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055110" codi="00901" nom="UF1. Incorporació al treball" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055111" codi="00902" nom="UF2. Prevenció de riscos laborals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055112" codi="01001" nom="UF1. Empresa i iniciativa emprenedora" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055113" codi="01101" nom="UF1. Síntesi" categoria="Crèdit"/>
+      <contingut id="189055114" codi="01201" nom="UF1. Anglès tècnic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055115" codi="01301" nom="Formació en centres de treball" categoria="Crèdit" tipus="FCP"/>
+      <contingut id="189055233" codi="00101" nom="UF1. Electricitat a l&apos;ordinador" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055234" codi="00102" nom="UF2. Components d&apos;un equip microinformàtic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055235" codi="00103" nom="UF3. Muntatge d&apos;un equip microinformàtic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055236" codi="00104" nom="UF4. Noves tendències de muntatge" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055237" codi="00105" nom="UF5. Manteniment d&apos;equips microinformàtics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055238" codi="00106" nom="UF6. Instal·lació de programari" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055239" codi="00201" nom="UF1. Introducció als sistemes operatius" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055240" codi="00202" nom="UF2. Sistemes operatius propietaris" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055241" codi="00203" nom="UF3. Sistemes operatius lliures" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055242" codi="00301" nom="UF1. Aplicacions ofimàtiques i atenció a l&apos;usuari" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055243" codi="00302" nom="UF2. El correu i l&apos;agenda  electrònica" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055244" codi="00303" nom="UF3. Processadors de text" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055245" codi="00304" nom="UF4. Fulls de càlcul" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055246" codi="00305" nom="UF5. Bases de dades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055247" codi="00306" nom="UF6. Imatge i vídeo-presentacions   " categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055248" codi="00401" nom="UF1. Sistemes operatius propietaris en xarxa" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055249" codi="00402" nom="UF2. Sistemes operatius lliures en xarxa" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055250" codi="00403" nom="UF3. Compartició de recursos i seguretat" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055251" codi="00404" nom="UF4. Integració de sistemes operatius" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055252" codi="00501" nom="UF1. Introducció a les xarxes locals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055253" codi="00502" nom="UF2. Configuració de commutadors  i encaminadors " categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055254" codi="00503" nom="UF3. Resolució d&apos;incidències en xarxes locals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055255" codi="00601" nom="UF1. Seguretat passiva." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055256" codi="00602" nom="UF2. Còpies de seguretat" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055257" codi="00603" nom="UF3. Legislació de seguretat i protecció de dades." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055258" codi="00604" nom="UF4. Seguretat activa." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055259" codi="00605" nom="UF5. Tallafocs i monitoratge de xarxes" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055260" codi="00701" nom="UF1. Configuració de la xarxa (DNS i DHCP)" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055551" codi="001" nom="MP1. Muntatge i manteniment d&apos;equips" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055552" codi="002" nom="MP2. Sistemes Operatius Monolloc" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055553" codi="003" nom="MP3. Aplicacions ofimàtiques" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055554" codi="004" nom="MP4. Sistemes operatius en xarxa" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055555" codi="005" nom="MP5. Xarxes locals" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055556" codi="006" nom="MP6. Seguretat informàtica" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055557" codi="007" nom="MP7. Serveis de xarxa" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055558" codi="008" nom="MP8. Aplicacions Web" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055559" codi="009" nom="MP9. Formació i orientació laboral" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055560" codi="010" nom="MP10. Empresa i iniciativa emprenedora" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055561" codi="011" nom="MP12. Síntesi" categoria="Mòdul"/>
+      <contingut id="189055562" codi="012" nom="MP11. Anglès tècnic" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055563" codi="013" nom="MP13. Formació en centres de treball" categoria="Mòdul" tipus="FCP"/>
+      <contingut id="276645251" codi="00805" nom="UF5. Fonaments d&apos;HTML i fulls d&apos;estils" categoria="Crèdit" tipus="Lectiu"/>
+    </pla-estudis>
+    <pla-estudis id="00000000000000000000000000000000000000000004596643" etapa="CFPS" subetapa="IMA0" nom="CFPS Manteniment d&apos;instal·lacions tèrmiques i de fluids (LOE)">
+      <contingut id="189055261" codi="00602" nom="UF2. Muntatge i posada en marxa d&apos;equips de climatització i ventilació-extracció" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055262" codi="00603" nom="UF3. Muntatge de quadres elèctrics en les instal·lacions frigorífiques, de climatització i de ventilació-extracció" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055263" codi="00604" nom="UF4. Diagnosi d&apos;avaries d&apos;equips frigorífics, de climatització i de ventilació-extracció" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055264" codi="00605" nom="UF5. Manteniment en els equips frigorífics, de climatització i  de ventilació-extracció" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189055670" codi="002" nom="MP2. Equips i instal·lacions tèrmiques" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189055674" codi="006" nom="MP6. Manteniment d&apos;instal·lacions frigorífiques i de climatització" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="189056102" codi="00201" nom="UF1. Balanç energètic d&apos;instal·lacions tèrmiques: calefacció, climatització i refrigeració" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189056105" codi="00204" nom="UF4. Equips i instal·lacions frigorífiques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="189056116" codi="00601" nom="UF1. Muntatge i posada en marxa d&apos;equips frigorífics" categoria="Crèdit" tipus="Lectiu"/>
+    </pla-estudis>
+    <pla-estudis id="104946091" etapa="ESO LOE" subetapa="ESO LOE" nom="ESO LOE">
+      <contingut id="104946176" codi="TU1" nom="Tutoria" categoria="C"/>
+      <contingut id="24696076891" codi="OPTF1" nom="Optativa Educació Física 1" categoria="C"/>
+      <contingut id="24696076927" codi="OP21" nom="Optativa Llengua Francesa 1" categoria="C"/>
+      <contingut id="28001279956" codi="OPAN1" nom="Optativa Llengua Anglesa 1" categoria="C"/>
+      <contingut id="30853301642" codi="OPSO1" nom="Optativa Socials 1" categoria="C"/>
+      <contingut id="30853301647" codi="OTES1" nom="Optativa Tècniques d&apos;Estudi 1" categoria="C"/>
+      <contingut id="617846158" codi="RE1" nom="Religió catòlica 1 (LOEM)" categoria="C"/>
+      <contingut id="617846286" codi="IA1" nom="Llengua estrangera: Anglès 1 (LOEM)" categoria="C"/>
+      <contingut id="617846289" codi="ZCB1" nom="Ciències de la naturalesa: biologia i geologia 1" categoria="C"/>
+      <contingut id="617846301" codi="LC1" nom="Llengua catalana i literatura 1 (LOEM)" categoria="C"/>
+      <contingut id="617846307" codi="LS1" nom="Llengua castellana i literatura 1 (LOEM)" categoria="C"/>
+      <contingut id="617846310" codi="ZMA1" nom="Matemàtiques 1" categoria="C"/>
+      <contingut id="617846313" codi="ZCS1" nom="Ciències socials: geografia i història 1" categoria="C"/>
+      <contingut id="617846316" codi="ZEF1" nom="Educació física 1" categoria="C"/>
+      <contingut id="617846319" codi="ZTE1" nom="Tecnologia 1" categoria="C"/>
+      <contingut id="617846322" codi="ZEV1" nom="Educació visual i plàstica 1" categoria="C"/>
+      <contingut id="617846325" codi="ZMU1" nom="Música 1" categoria="C"/>
+      <contingut id="617846328" codi="ZEE1" nom="Cultura i valors ètics 1" categoria="C"/>
+      <contingut id="617846331" codi="ZTS1" nom="Treball de síntesi 1" categoria="C"/>
+      <contingut id="104946129" codi="LC2" nom="Llengua catalana i literatura" categoria="C"/>
+      <contingut id="104946137" codi="LS2" nom="Llengua castellana i literatura" categoria="C"/>
+      <contingut id="104946141" codi="MA2" nom="Matemàtiques" categoria="C"/>
+      <contingut id="104946145" codi="CN2" nom="Ciències de la naturalesa" categoria="C"/>
+      <contingut id="104946149" codi="CS2" nom="Ciències socials, geografia i història" categoria="C"/>
+      <contingut id="104946153" codi="EF2" nom="Educació física" categoria="C"/>
+      <contingut id="104946157" codi="TE2" nom="Tecnologies" categoria="C"/>
+      <contingut id="104946161" codi="EV2" nom="Educació visual i plàstica" categoria="C"/>
+      <contingut id="104946177" codi="TU2" nom="Tutoria" categoria="C"/>
+      <contingut id="104946181" codi="TS2" nom="Treball de síntesi" categoria="C"/>
+      <contingut id="104946189" codi="IA2" nom="Llengua estrangera Anglès" categoria="C"/>
+      <contingut id="104946209" codi="SF2" nom="Segona llengua estrangera Francès" categoria="C"/>
+      <contingut id="104946221" codi="RE2" nom="Religió catòlica" categoria="C"/>
+      <contingut id="15955547445" codi="OPIN2" nom="Optativa Informàtica 2" categoria="C"/>
+      <contingut id="16911565603" codi="AEFI2" nom="Alternativa Educació Física 2" categoria="C"/>
+      <contingut id="22548587469" codi="AANG2" nom="Alternativa Llengua Anglesa 2" categoria="C"/>
+      <contingut id="30803089114" codi="OPTC2" nom="Optativa Llengua Catalana 2" categoria="C"/>
+      <contingut id="30803089138" codi="OPTM2" nom="Optativa Música 2" categoria="C"/>
+      <contingut id="30803089143" codi="ALTS2" nom="Alternativa Socials 2" categoria="C"/>
+      <contingut id="30803089221" codi="OPTH2" nom="Optativa Habilitats Socials 2" categoria="C"/>
+      <contingut id="30803089678" codi="ALTT2" nom="Alternativa Tecnologia 2" categoria="C"/>
+      <contingut id="30853301643" codi="OPSO2" nom="Optativa Socials 2" categoria="C"/>
+      <contingut id="104946178" codi="TU3" nom="Tutoria" categoria="C"/>
+      <contingut id="16928258512" codi="HSOC3" nom="Habilitats Socials 3" categoria="C"/>
+      <contingut id="30803089139" codi="OPTM3" nom="Optativa Música 3" categoria="C"/>
+      <contingut id="617846159" codi="RE3" nom="Religió catòlica 3 (LOEM)" categoria="C"/>
+      <contingut id="617846287" codi="IA3" nom="Llengua estrangera: Anglès 3 (LOEM)" categoria="C"/>
+      <contingut id="617846290" codi="ZCB3" nom="Ciències de la naturalesa: biologia i geologia 3" categoria="C"/>
+      <contingut id="617846291" codi="ZCF3" nom="Ciències de la naturalesa: física i química 3" categoria="C"/>
+      <contingut id="617846294" codi="3ZEM3" nom="Emprenedoria 3" categoria="C"/>
+      <contingut id="617846297" codi="ZCC3" nom="Cultura clàssica 3" categoria="C"/>
+      <contingut id="617846302" codi="LC3" nom="Llengua catalana i literatura 3 (LOEM)" categoria="C"/>
+      <contingut id="617846308" codi="LS3" nom="Llengua castellana i literatura 3 (LOEM)" categoria="C"/>
+      <contingut id="617846311" codi="ZMA3" nom="Matemàtiques 3" categoria="C"/>
+      <contingut id="617846314" codi="ZCS3" nom="Ciències socials: geografia i història 3" categoria="C"/>
+      <contingut id="617846317" codi="ZEF3" nom="Educació física 3" categoria="C"/>
+      <contingut id="617846320" codi="ZTE3" nom="Tecnologia 3" categoria="C"/>
+      <contingut id="617846323" codi="ZEV3" nom="Educació visual i plàstica 3" categoria="C"/>
+      <contingut id="617846329" codi="ZEE3" nom="Cultura i valors ètics 3" categoria="C"/>
+      <contingut id="617846332" codi="ZTS3" nom="Treball de síntesi 3" categoria="C"/>
+      <contingut id="617846338" codi="SF3" nom="Segona llengua estrangera: francès 3 (LOEM)" categoria="C"/>
+      <contingut id="104946131" codi="LC4" nom="Llengua catalana i literatura" categoria="C"/>
+      <contingut id="104946139" codi="LS4" nom="Llengua castellana i literatura" categoria="C"/>
+      <contingut id="104946143" codi="MA4" nom="Matemàtiques" categoria="C"/>
+      <contingut id="104946151" codi="CS4" nom="Ciències socials, geografia i història" categoria="C"/>
+      <contingut id="104946155" codi="EF4" nom="Educació física" categoria="C"/>
+      <contingut id="104946159" codi="TE4" nom="Tecnologia" categoria="C"/>
+      <contingut id="104946163" codi="EV4" nom="Educació visual i plàstica" categoria="C"/>
+      <contingut id="104946167" codi="MU4" nom="Música" categoria="C"/>
+      <contingut id="104946175" codi="EE4" nom="Educació eticocívica" categoria="C"/>
+      <contingut id="104946179" codi="TU4" nom="Tutoria" categoria="C"/>
+      <contingut id="104946187" codi="PR4" nom="Projecte de recerca" categoria="C"/>
+      <contingut id="104946191" codi="IA4" nom="Llengua estrangera Anglès" categoria="C"/>
+      <contingut id="104946211" codi="SF4" nom="Segona llengua estrangera Francès" categoria="C"/>
+      <contingut id="104946223" codi="RE4" nom="Religió catòlica" categoria="C"/>
+      <contingut id="141864242" codi="IN4" nom="Informàtica" categoria="C"/>
+      <contingut id="142007437" codi="BG4" nom="Biologia i geologia" categoria="C"/>
+      <contingut id="142007540" codi="FQ4" nom="Física i química" categoria="C"/>
+      <contingut id="142007676" codi="LL4" nom="Llatí" categoria="C"/>
+      <contingut id="18706617549" codi="OEst4" nom="Estadística 4" categoria="C"/>
+      <contingut id="18740168110" codi="LAB4" nom="Món laboral i transició al treball 4" categoria="C"/>
+      <contingut id="22548587471" codi="AANG4" nom="Alternativa Llengua Anglesa 4" categoria="C"/>
+    </pla-estudis>
+    <pla-estudis id="148764146" etapa="BATX LOE" subetapa="0000" nom="Batxillerat LOE">
+      <contingut id="148764175" codi="LS" nom="Llengua castellana i literatura" categoria="D"/>
+      <contingut id="148764178" codi="LC" nom="Llengua catalana i literatura" categoria="D"/>
+      <contingut id="148764184" codi="IA" nom="Llengua estrangera, Anglès" categoria="D"/>
+      <contingut id="148764264" codi="HS" nom="Història" categoria="D"/>
+      <contingut id="148764266" codi="HF" nom="Història de la filosofia" categoria="D"/>
+      <contingut id="617846350" codi="ZFC" nom="Filosofia" categoria="D"/>
+      <contingut id="617846352" codi="ZLS" nom="Llengua castellana i literatura (LOEM)" categoria="D"/>
+      <contingut id="617846354" codi="ZLC" nom="Llengua catalana i literatura  (LOEM)" categoria="D"/>
+      <contingut id="617846358" codi="IA" nom="Llengua estrangera, Anglès  (LOEM)" categoria="D"/>
+      <contingut id="617846380" codi="SF" nom="Segona llengua estrangera Francès (LOEM)" categoria="D"/>
+      <contingut id="617846384" codi="SL" nom="Segona llengua estrangera Alemany (LOEM)" categoria="D"/>
+      <contingut id="617846439" codi="ZEF" nom="Educació física" categoria="D"/>
+    </pla-estudis>
+    <pla-estudis id="148764158" etapa="BATX LOE" subetapa="2000" nom="BATX LOE Ciències i tecnologia">
+      <contingut id="148764175" codi="LS" nom="Llengua castellana i literatura" categoria="D"/>
+      <contingut id="148764178" codi="LC" nom="Llengua catalana i literatura" categoria="D"/>
+      <contingut id="148764184" codi="IA" nom="Llengua estrangera, Anglès" categoria="D"/>
+      <contingut id="148764201" codi="BI" nom="Biologia" categoria="D"/>
+      <contingut id="148764204" codi="TM" nom="Ciències de la terra i mediambientals" categoria="D"/>
+      <contingut id="148764212" codi="DT" nom="Dibuix tècnic" categoria="D"/>
+      <contingut id="148764223" codi="FS" nom="Física" categoria="D"/>
+      <contingut id="148764251" codi="MA" nom="Matemàtiques" categoria="D"/>
+      <contingut id="148764254" codi="QI" nom="Química" categoria="D"/>
+      <contingut id="148764259" codi="TI" nom="Tecnologia industrial" categoria="D"/>
+      <contingut id="148764264" codi="HS" nom="Història" categoria="D"/>
+      <contingut id="148764266" codi="HF" nom="Història de la filosofia" categoria="D"/>
+      <contingut id="617846350" codi="ZFC" nom="Filosofia" categoria="D"/>
+      <contingut id="617846352" codi="ZLS" nom="Llengua castellana i literatura (LOEM)" categoria="D"/>
+      <contingut id="617846354" codi="ZLC" nom="Llengua catalana i literatura  (LOEM)" categoria="D"/>
+      <contingut id="617846358" codi="IA" nom="Llengua estrangera, Anglès  (LOEM)" categoria="D"/>
+      <contingut id="617846364" codi="ZTM" nom="Ciències de la terra" categoria="D"/>
+      <contingut id="617846380" codi="SF" nom="Segona llengua estrangera Francès (LOEM)" categoria="D"/>
+      <contingut id="617846384" codi="SL" nom="Segona llengua estrangera Alemany (LOEM)" categoria="D"/>
+      <contingut id="617846388" codi="ZPS" nom="Psicologia" categoria="D"/>
+      <contingut id="617846402" codi="ZMA" nom="Matemàtiques" categoria="D"/>
+      <contingut id="617846408" codi="ZBI" nom="Biologia" categoria="D"/>
+      <contingut id="617846416" codi="ZFS" nom="Física" categoria="D"/>
+      <contingut id="617846424" codi="ZQI" nom="Química" categoria="D"/>
+      <contingut id="617846439" codi="ZEF" nom="Educació física" categoria="D"/>
+    </pla-estudis>
+    <pla-estudis id="148764163" etapa="BATX LOE" subetapa="3000" nom="BATX LOE Humanitats i ciències socials">
+      <contingut id="148764175" codi="LS" nom="Llengua castellana i literatura" categoria="D"/>
+      <contingut id="148764178" codi="LC" nom="Llengua catalana i literatura" categoria="D"/>
+      <contingut id="148764184" codi="IA" nom="Llengua estrangera, Anglès" categoria="D"/>
+      <contingut id="148764217" codi="EC" nom="Economia" categoria="D"/>
+      <contingut id="148764264" codi="HS" nom="Història" categoria="D"/>
+      <contingut id="148764266" codi="HF" nom="Història de la filosofia" categoria="D"/>
+      <contingut id="617846350" codi="ZFC" nom="Filosofia" categoria="D"/>
+      <contingut id="617846352" codi="ZLS" nom="Llengua castellana i literatura (LOEM)" categoria="D"/>
+      <contingut id="617846354" codi="ZLC" nom="Llengua catalana i literatura  (LOEM)" categoria="D"/>
+      <contingut id="617846358" codi="IA" nom="Llengua estrangera, Anglès  (LOEM)" categoria="D"/>
+      <contingut id="617846368" codi="ZEO" nom="Economia de l&apos;empresa" categoria="D"/>
+      <contingut id="617846380" codi="SF" nom="Segona llengua estrangera Francès (LOEM)" categoria="D"/>
+      <contingut id="617846384" codi="SL" nom="Segona llengua estrangera Alemany (LOEM)" categoria="D"/>
+      <contingut id="617846388" codi="ZPS" nom="Psicologia" categoria="D"/>
+      <contingut id="617846400" codi="ZLA" nom="Llatí" categoria="D"/>
+      <contingut id="617846404" codi="ZMS" nom="Matemàtiques aplicades a les ciències socials" categoria="D"/>
+      <contingut id="617846418" codi="ZGR" nom="Grec" categoria="D"/>
+      <contingut id="617846420" codi="ZHM" nom="Història del món contemporani" categoria="D"/>
+      <contingut id="617846422" codi="ZLU" nom="Literatura universal" categoria="D"/>
+      <contingut id="617846439" codi="ZEF" nom="Educació física" categoria="D"/>
+    </pla-estudis>
+    <pla-estudis id="210954821" etapa="CFPM" subetapa="AG10" nom="CFPM Gestió administrativa (LOE)">
+      <contingut id="210954934" codi="001" nom="MP1. Comunicació empresarial i atenció al client" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954935" codi="00101" nom="UF1. Comunicació empresarial oral" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954936" codi="00102" nom="UF2. Comunicació empresarial escrita" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954937" codi="00103" nom="UF3. Sistemes d&apos;arxiu" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954938" codi="00104" nom="UF4. Atenció al client/usuari" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954939" codi="002" nom="MP2. Operacions administratives de compravenda" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954940" codi="00201" nom="UF1. Circuit administratiu de la compravenda" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954941" codi="00202" nom="UF2. Gestió d&apos;estocs" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954942" codi="00203" nom="UF3. Declaracions fiscals derivades de la compravenda" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954943" codi="003" nom="MP3. Operacions administratives de recursos humans" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954944" codi="00301" nom="UF1. Selecció i formació" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954945" codi="00302" nom="UF2. Contractació i retribució" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954946" codi="00303" nom="UF3. Processos de l&apos;activitat laboral " categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954947" codi="004" nom="MP4. Operacions auxiliars de gestió de tresoreria" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954948" codi="00401" nom="UF1. Control de tresoreria" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954949" codi="00402" nom="UF2. Tramitació d&apos;instruments financers i d&apos;assegurances" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954950" codi="00403" nom="UF3. Operacions financeres bàsiques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954951" codi="005" nom="MP5. Tècnica comptable" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954952" codi="00501" nom="UF1. Patrimoni i metodologia comptable" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954953" codi="00502" nom="UF2. Cicle comptable bàsic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954954" codi="00503" nom="UF3. Cicle comptable mitjà" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954955" codi="006" nom="MP6. Tractament de la documentació comptable" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954956" codi="00601" nom="UF1. Preparació i codificació comptable" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954957" codi="00602" nom="UF2. Registre comptable" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954958" codi="00603" nom="UF3. Comptes anuals bàsics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954959" codi="00604" nom="UF4. Verificació i control intern" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954960" codi="007" nom="MP7. Tractament informàtic de la informació" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954961" codi="00701" nom="UF1. Tecnologia i comunicacions digitals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954962" codi="00702" nom="UF2. Ordinografia i enregistrament de dades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954964" codi="00704" nom="UF4. Tractament de dades i integració d&apos;aplicacions" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954965" codi="00705" nom="UF5. Presentacions multimèdia de continguts" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954966" codi="00706" nom="UF6. Eines d&apos;internet per a l&apos;empresa" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954967" codi="008" nom="MP8. Operacions administratives de suport" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954968" codi="00801" nom="UF1. Selecció i tractament de la informació" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954969" codi="00802" nom="UF2. Operacions logístiques de suport administratiu" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954970" codi="009" nom="MP9. Anglès" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954971" codi="00901" nom="UF1. Anglès tècnic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954972" codi="010" nom="MP10. Empresa i Administració" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954973" codi="01001" nom="UF1. Innovació i emprenedoria" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954974" codi="01002" nom="UF2. Empresa i activitat econòmica" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954975" codi="01003" nom="UF3. Administracions públiques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954976" codi="01004" nom="UF4. Fiscalitat empresarial bàsica" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954977" codi="011" nom="MP11. Empresa a l&apos;aula" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954978" codi="01101" nom="UF1. Empresa a l&apos;aula" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954979" codi="012" nom="MP12. Formació i orientació laboral" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="210954980" codi="01201" nom="UF1. Incorporació al treball" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954981" codi="01202" nom="UF2. Prevenció de riscos laborals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="210954982" codi="013" nom="MP13. Formació en centres de treball" categoria="Mòdul" tipus="FCP"/>
+      <contingut id="210954983" codi="01301" nom="Formació en centres de treball" categoria="Crèdit" tipus="FCP"/>
+      <contingut id="362446175" codi="00708" nom="UF3. Tractament de la informació escrita i numèrica" categoria="Crèdit" tipus="Lectiu"/>
+    </pla-estudis>
+    <pla-estudis id="276645286" etapa="CFPS" subetapa="ICB0" nom="CFPS Desenvolupament d&apos;aplicacions multiplataforma (LOE)">
+      <contingut id="276644726" codi="00101" nom="UF1. Instal·lació, configuració i explotació del sistema informàtic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644728" codi="00102" nom="UF2. Gestió de la informació i de recursos en una xarxa" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644729" codi="00103" nom="UF3. Implantació de programari específic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644731" codi="00201" nom="UF1. Introducció a les bases de dades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644732" codi="00202" nom="UF2. Llenguatges SQL: DML i DDL" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644734" codi="00203" nom="UF3. Llenguatge SQL: DCL i extensió procedimental" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644735" codi="00204" nom="UF4. Bases de dades objecte-relacionals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644737" codi="00301" nom="UF1. Programació estructurada" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644738" codi="00302" nom="UF2. Disseny modular" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644740" codi="00303" nom="UF3. Fonaments de gestió de fitxers" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644741" codi="00304" nom="UF4. Programació orientada a objectes. Fonaments" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644743" codi="00305" nom="UF5. POO. Llibreries de classes fonamentals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644744" codi="00306" nom="UF6. POO. Introducció a la persistència en BD" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644746" codi="00401" nom="UF1. Programació amb XML" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644747" codi="00402" nom="UF2. Àmbits d&apos;aplicació de l&apos;XML" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644750" codi="00501" nom="UF1. Desenvolupament de programari" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644752" codi="00502" nom="UF2. Optimització del programari" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644753" codi="00503" nom="UF3. Introducció al disseny orientat a objectes" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644755" codi="00601" nom="UF1. Persistència en fitxers" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644756" codi="00602" nom="UF2. Persistència en BDR-BDOR-BDOO" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644758" codi="00603" nom="UF3. Persistència en BD natives XML" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644759" codi="00604" nom="UF4. Components d&apos;accés a dades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644761" codi="00701" nom="UF1. Disseny i implementació d&apos;interfícies" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644762" codi="00702" nom="UF2. Preparació i distribució d&apos;aplicacions" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644764" codi="00801" nom="UF1. Desenvolupament d&apos;aplicacions per dispositius mòbils" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644765" codi="00802" nom="UF2. Programació multimèdia" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644767" codi="00803" nom="UF3. Desenvolupament de jocs per dispositius mòbils" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644768" codi="00901" nom="UF1. Seguretat i criptografia" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644770" codi="00902" nom="UF2. Processos i fils" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644771" codi="00903" nom="UF3. Sòcols i serveis" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644773" codi="01001" nom="UF1. Sistemes ERP-CRM. Implantació." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644774" codi="01002" nom="UF2. Sistemes ERP-CRM. Explotació i adequació." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644776" codi="01101" nom="UF1. Incorporació al treball" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644777" codi="01102" nom="UF2. Prevenció de riscos laborals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644779" codi="01201" nom="UF1. Empresa i iniciativa emprenedora" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644780" codi="01301" nom="UF1. Projecte de desenvolupament d&apos;aplicacions multiplataforma" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="276644782" codi="01401" nom="Formació en centres de treball" categoria="Crèdit" tipus="FCP"/>
+      <contingut id="276645693" codi="001" nom="MP1. Sistemes informàtics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645694" codi="002" nom="MP2. Bases de dades" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645696" codi="003" nom="MP3. Programació" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645697" codi="004" nom="MP4. Llenguatges de marques i sistemes de gestió d&apos;informació." categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645699" codi="005" nom="MP5. Entorns de desenvolupament." categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645700" codi="006" nom="MP6. Accés a dades" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645702" codi="007" nom="MP7. Desenvolupament d&apos;interfícies" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645703" codi="008" nom="MP8. Programació multimèdia i dispositius mòbils" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645705" codi="009" nom="MP9. Programació de serveis i processos" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645706" codi="010" nom="MP10. Sistemes de gestió empresarial" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645708" codi="011" nom="MP11. Formació i orientació laboral" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645709" codi="012" nom="MP12. Empresa i iniciativa emprenedora" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645711" codi="013" nom="MP13.Projecte de desenvolupament d&apos;aplicacions multiplataforma" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="276645712" codi="014" nom="MP14. Formació en centres de treball" categoria="Mòdul" tipus="FCP"/>
+      <contingut id="456631630" codi="00404" nom="UF3. Sistemes de gestió d&apos;informació empresarial" categoria="Crèdit" tipus="Lectiu"/>
+    </pla-estudis>
+    <pla-estudis id="355899876" etapa="CFPS" subetapa="IMC0" nom="CFPS Mecatrònica industrial (LOE)">
+      <contingut id="355901142" codi="001" nom="MP1. Sistemes mecànics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901143" codi="00101" nom="UF1. Muntatge i ajustatge d&apos;elements mecànics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901144" codi="00102" nom="UF2. Manteniment correctiu" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901145" codi="00103" nom="UF3. Manteniment preventiu" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901146" codi="002" nom="MP2. Sistemes hidràulics i pneumàtics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901147" codi="00201" nom="UF1. Sistemes pneumàtics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901148" codi="00202" nom="UF2. Sistemes hidràulics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901150" codi="003" nom="MP3. Sistemes elèctrics i electrònics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901151" codi="00301" nom="UF1. Electricitat industrial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901152" codi="00302" nom="UF2. Configuració i muntatge de sistemes elèctrics i electrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901154" codi="004" nom="MP4. Elements de màquines" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901155" codi="00401" nom="UF1. Materials i tractaments" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901156" codi="00402" nom="UF2. Cinemàtica de sistemes mecànics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901157" codi="00403" nom="UF3. Disseny de màquines" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901158" codi="005" nom="MP5. Processos de fabricació" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901159" codi="00501" nom="UF1. Determinació de processos de fabricació" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901160" codi="00502" nom="UF2. Mecanització" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901161" codi="00503" nom="UF3. Soldadura" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901162" codi="006" nom="MP6. Representació gràfica de sistemes mecatrònics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901163" codi="00601" nom="UF1. Representació gràfica" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901164" codi="00602" nom="UF2. Disseny assistit per ordinador (CAD)" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901165" codi="007" nom="MP7. Configuració de sistemes mecatrònics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901166" codi="00701" nom="UF1. Documentació de projectes mecatrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901167" codi="00702" nom="UF2. Desenvolupament de sistemes mecatrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901171" codi="009" nom="MP9. Integració de sistemes" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901172" codi="00901" nom="UF1. Regulació i control de sistemes" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901173" codi="00902" nom="UF2. Programació de PLC" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901174" codi="00903" nom="UF3. Comunicacions industrials" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901175" codi="00904" nom="UF4. Manipuladors i robots" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901176" codi="00905" nom="UF5. Posada en marxa i manteniment de sistemes mecatrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901177" codi="010" nom="MP10. Simulació de sistemes mecatrònics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901178" codi="01001" nom="UF1. Simulació de cèl·lules robotitzades i prototips mecatrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901179" codi="01002" nom="UF2. Simulació d&apos;estacions automatitzades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901180" codi="011" nom="MP11. Formació i orientació laboral" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901181" codi="01101" nom="UF1. Incorporació al treball" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901182" codi="01102" nom="UF2. Prevenció de riscos laborals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901183" codi="012" nom="MP12. Empresa i iniciativa emprenedora" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901184" codi="01201" nom="UF1. Empresa i iniciativa emprenedora" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901185" codi="013" nom="MP13. Projecte de mecatrònica industrial" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355901186" codi="01301" nom="UF1. Projecte de mecatrònica industrial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355901187" codi="014" nom="MP14. Formació en centres de treball" categoria="Mòdul" tipus="FCP"/>
+      <contingut id="355901188" codi="01401" nom="Formació en centres de treball" categoria="Crèdit" tipus="FCP"/>
+    </pla-estudis>
+    <pla-estudis id="355899877" etapa="CFPM" subetapa="IM10" nom="CFPM Manteniment electromecànic (LOE)">
+      <contingut id="355900300" codi="001" nom="MP1. Tècniques de fabricació" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900301" codi="00101" nom="UF1. Interpretació grafica" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900302" codi="00102" nom="UF2. Materials" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900303" codi="00103" nom="UF3. Metrologia" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900304" codi="00104" nom="UF4. Mecanitzat manual" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900305" codi="00105" nom="UF5. Mecanitzat amb màquina-eina" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900306" codi="002" nom="MP2. Tècniques d&apos;unió i muntatge" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900307" codi="00201" nom="UF1. Procediments de muntatge i unió" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900308" codi="00202" nom="UF2. Conformació i unions no soldades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900309" codi="00203" nom="UF3. Soldadura" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900310" codi="003" nom="MP3. Electricitat i automatismes elèctrics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900311" codi="00301" nom="UF1. Mesures en els circuits de C.C." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900312" codi="00302" nom="UF2. Mesures en els circuits de C.A." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900313" codi="00303" nom="UF3. Instal·lacions electrotècniques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900314" codi="00304" nom="UF4. Quadres elèctrics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900315" codi="004" nom="MP4. Automatismes pneumàtics i hidràulics" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900316" codi="00401" nom="UF1. Automatismes pneumàtics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900317" codi="00402" nom="UF2. Automatismes hidràulics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900319" codi="005" nom="MP5. Muntatge i manteniment mecànic" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900320" codi="00501" nom="UF1. Elements de màquines" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900321" codi="00502" nom="UF2. Muntatge i posada en marxa de màquines" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900322" codi="00503" nom="UF3. Manteniment mecànic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900323" codi="006" nom="MP6. Muntatge i manteniment elèctricelectrònic" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900324" codi="00601" nom="UF1. Màquines elèctriques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900325" codi="00602" nom="UF2. Muntatge i manteniment de màquines elèctriques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900326" codi="00603" nom="UF3. Sistemes automàtics per màquines elèctriques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900327" codi="007" nom="MP7. Muntatge i manteniment de línies automatitzades" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900328" codi="00701" nom="UF1. Organització del manteniment industrial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900329" codi="00702" nom="UF2. Processos auxiliars de producció" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900330" codi="00703" nom="UF3. Sistemes mecatrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900331" codi="00704" nom="UF4. Manteniment correctiu en sistemes mecatrònics" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900332" codi="008" nom="MP8. Formació i orientació laboral" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900333" codi="00801" nom="UF1. Incorporació al treball" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900334" codi="00802" nom="UF2. Prevenció de riscos laborals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900335" codi="009" nom="MP9. Empresa i iniciativa emprenedora" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900336" codi="00901" nom="UF1. Empresa i iniciativa emprenedora" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900337" codi="010" nom="MP10. Anglès tècnic" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900338" codi="01001" nom="UF1. Anglès tècnic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900339" codi="011" nom="MP11. Síntesi" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900340" codi="01101" nom="UF1. Síntesi" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900341" codi="012" nom="MP12. Formació en centres de treball" categoria="Mòdul" tipus="FCP"/>
+      <contingut id="355900342" codi="01201" nom="Formació en centres de treball" categoria="Crèdit" tipus="FCP"/>
+    </pla-estudis>
+    <pla-estudis id="355899882" etapa="CFPS" subetapa="AGB0" nom="CFPS Administració i finances (LOE)">
+      <contingut id="355900573" codi="001" nom="MP1. Comunicació i atenció al client" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900574" codi="00101" nom="UF1. Processos de comunicació oral a l&apos;empresa i atenció al client." categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900575" codi="00102" nom="UF2. Processos de comunicació escrita a l&apos;empresa i atenció al client" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900576" codi="00103" nom="UF3. Gestió documental, arxiu i registre" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900577" codi="002" nom="MP2. Gestió de la documentació jurídica i empresarial" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900578" codi="00201" nom="UF1. Organització de la documentació jurídica i empresarial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900579" codi="00202" nom="UF2. Contractació empresarial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900580" codi="00203" nom="UF3. Tramitació davant les Administracions Públiques" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900581" codi="003" nom="MP3. Procés integral de l&apos;activitat comercial" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900582" codi="00301" nom="UF1. Patrimoni i metodologia comptable" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900583" codi="00302" nom="UF2. Fiscalitat empresarial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900584" codi="00303" nom="UF3. Gestió administrativa de les operacions de compravenda i tresoreria" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900585" codi="00304" nom="UF4. Registre comptable i comptes anuals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900586" codi="004" nom="MP4. Recursos humans i responsabilitat social corporativa" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900587" codi="00401" nom="UF1. Processos administratius de recursos humans" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900588" codi="00402" nom="UF2. Reclutament i desenvolupament professional" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900589" codi="005" nom="MP5. Ofimàtica i procés de la informació" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900590" codi="00501" nom="UF1. Tecnologia i comunicacions digitals, i processament de dades" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900591" codi="00502" nom="UF2. Tractament avançat de la informació, arxiu i registre" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900592" codi="00503" nom="UF3. Gestió de bases de dades, disseny de fulls de càlcul i integració d&apos;aplicacions" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900593" codi="006" nom="MP6. Anglès" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900594" codi="00601" nom="UF1. Anglès tècnic" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900595" codi="007" nom="MP7. Gestió de recursos humans" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900596" codi="00701" nom="UF1. Procés de contractació" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900597" codi="00702" nom="UF2. Retribucions, nòmines i obligacions oficials" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900598" codi="008" nom="MP8. Gestió financera" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900599" codi="00801" nom="UF1. Anàlisi i previsió financeres" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900600" codi="00802" nom="UF2. Productes del mercat financer i d&apos;assegurances" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900601" codi="00803" nom="UF3. Fonts de finançament i selecció d&apos;inversions" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900602" codi="009" nom="MP9. Comptabilitat i fiscalitat" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900603" codi="00901" nom="UF1. Comptabilitat financera, fiscalitat i auditoria" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900604" codi="00902" nom="UF2. Comptabilitat de costos" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900605" codi="00903" nom="UF3. Anàlisi econòmic, patrimonial i financer" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900606" codi="010" nom="MP10. Gestió logística i comercial" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900607" codi="01001" nom="UF1. Planificació de l&apos;aprovisionament" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900608" codi="01002" nom="UF2. Selecció i control de proveïdors" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900609" codi="01003" nom="UF3. Operativa i control de la cadena logística" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900610" codi="011" nom="MP11. Simulació empresarial" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900611" codi="01101" nom="UF1. Simulació empresarial" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900612" codi="012" nom="MP12. Formació i orientació laboral" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900613" codi="01201" nom="UF1. Incorporació al treball" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900614" codi="01202" nom="UF2. Prevenció de riscos laborals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900615" codi="013" nom="MP13. Projecte d&apos;administració i finances" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900616" codi="01301" nom="UF1. Projecte d&apos;administració i finances" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900617" codi="014" nom="MP14. Formació en centres de treball" categoria="Mòdul" tipus="FCP"/>
+      <contingut id="355900618" codi="01401" nom="Formació en centres de treball" categoria="Crèdit" tipus="FCP"/>
+    </pla-estudis>
+    <pla-estudis id="355899883" etapa="CFPS" subetapa="CMB0" nom="CFPS Comerç internacional (LOE)">
+      <contingut id="355900718" codi="001" nom="MP1. Gestió administrativa del comerç internacional" categoria="Mòdul" tipus="Lectiu"/>
+      <contingut id="355900719" codi="00101" nom="UF1. Organismes i normes internacionals" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900720" codi="00102" nom="UF2. Intercanvis intracomunitaris" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900721" codi="00103" nom="UF3. Operacions amb països tercers" categoria="Crèdit" tipus="Lectiu"/>
+      <contingut id="355900722" codi="00104" nom="UF4. Gestió duanera" categoria="Crèdit" tipus="Lectiu"/>
+    </pla-estudis>
+  </plans-estudi>
+  <alumnes>
+    <alumne id="16542408377" nom="Alumne 1" cognom1="Cognom 1" cognom2="Cognom 2" datanaixement="14/04/1965" documentidentitat="39344875M" tipusdocument="D" sexe="D">
+      <contacte contacte="+34-690000000" tipus="TELEFON" descripcio="Primer telèfon de l"/>
+      <contacte contacte="alumne1@hotmail.com" tipus="EMAIL" descripcio="e-mail alumne"/>
+      <contacte contacte="690010101" tipus="TELEFON" descripcio="null"/>
+      <contacte contacte="+34-973313131" tipus="TELEFON" descripcio="null"/>
+    </alumne>
+    <alumne id="20015292761" nom="Alumne 2" cognom1="Cognom 1" cognom2="Cognom 2" datanaixement="22/04/1999" documentidentitat="49255769R" tipusdocument="D" sexe="D" tutor1="20015292754" tutor2="20015292759">
+      <contacte contacte="alumne2@hotmail.com" tipus="EMAIL" descripcio="email pare"/>
+      <contacte contacte="676161616" tipus="TELEFON" descripcio="mòbil mare"/>
+      <contacte contacte="+34-973505151" tipus="TELEFON" descripcio="Primer telèfon de l"/>
+    </alumne>
+    <alumne id="20015304698" nom="Alumne 3" cognom1="Cognom 1" cognom2="Cognom 2" datanaixement="07/01/1999" documentidentitat="48452115H" tipusdocument="D" sexe="H" tutor1="20015304696" tutor2="20015304697">
+      <contacte contacte="alumne3@msn.com" tipus="EMAIL" descripcio="."/>
+      <contacte contacte="610313131" tipus="TELEFON" descripcio="mòbil pare"/>
+      <contacte contacte="+34-973500102" tipus="TELEFON" descripcio="Primer telèfon de l"/>
+      <contacte contacte="+34-610343434" tipus="TELEFON" descripcio="null"/>
+    </alumne>
+    <alumne id="21390989561" nom="Alumne 4" cognom1="Cognom 1" datanaixement="12/03/1997" documentidentitat="X7658791Z" tipusdocument="N" sexe="H" tutor1="21390989559" tutor2="21390989560">
+      <contacte contacte="+34-697141414" tipus="TELEFON" descripcio="."/>
+      <contacte contacte="+34-663252525" tipus="TELEFON" descripcio="Primer telèfon de l"/>
+      <contacte contacte="+34-973121314" tipus="TELEFON" descripcio="Fixe"/>
+    </alumne>
+    <alumne id="21659908644" nom="Alumne 5" cognom1="Cognom 1" cognom2="Cognom 2" datanaixement="13/07/2000" documentidentitat="47567564X" tipusdocument="D" sexe="D" tutor1="21659908642" tutor2="21659908643">
+      <contacte contacte="emailpare@live.com" tipus="EMAIL" descripcio="email mare"/>
+      <contacte contacte="973303121" tipus="TELEFON" descripcio="Primer telèfon de l"/>
+      <contacte contacte="+34-973232425" tipus="TELEFON" descripcio="?"/>
+    </alumne>
+  </alumnes>
+  <tutors-legals>
+    <tutor-legal id="20015292754" nom="Nom tutor" cognom1="Cognom1" cognom2="Cognom2" adreca="CR Betlem 10   2on 1era" codipostal="25300" localitat="2521708" nomlocalitat="Tàrrega" provincia="25" sexe="D" documentidentitat="43768950E" tipusdocument="D"/>
+  </tutors-legals>
+  <grups>
+    <grup id="30282882419" codi="ESO LOE 1 A" nom="1r ESO A" etapa="ESO LOE" subetapa="ESO LOE" nivell="1" regim="01">
+      <alumnes>
+		<alumne id="34225521285"/>
+        <alumne id="34225525327"/>
+        <alumne id="36960231158"/>
+        <alumne id="36960237431"/>
+        <alumne id="36960238558"/>
+        <alumne id="36960239189"/>
+        <alumne id="36976998634"/>
+        <alumne id="36977018093"/>
+        <alumne id="36977021870"/>
+        <alumne id="36977028986"/>
+        <alumne id="36977035005"/>
+        <alumne id="36977035482"/>
+        <alumne id="36977042117"/>
+        <alumne id="36977043804"/>
+        <alumne id="36977045789"/>
+        <alumne id="36993830855"/>
+        <alumne id="36993830899"/>
+        <alumne id="36993831715"/>
+        <alumne id="36993839523"/>
+        <alumne id="36993854460"/>
+        <alumne id="37010566136"/>
+        <alumne id="37027351716"/>
+        <alumne id="37530708918"/>
+      </alumnes>
+     </grup>
+    <grup id="30282882425" codi="ESO LOE 1 B" nom="1r ESO B" etapa="ESO LOE" subetapa="ESO LOE" nivell="1" regim="01">
+      <alumnes>
+		<alumne id="34225528830"/>
+        <alumne id="34242304783"/>
+        <alumne id="36960231709"/>
+        <alumne id="36960280455"/>
+        <alumne id="36977000293"/>
+        <alumne id="36977007337"/>
+        <alumne id="36977008166"/>
+        <alumne id="36977011268"/>
+        <alumne id="36977018141"/>
+        <alumne id="36977028673"/>
+        <alumne id="36977033511"/>
+        <alumne id="36977045525"/>
+        <alumne id="36977045732"/>
+        <alumne id="36977046856"/>
+        <alumne id="36993800565"/>
+        <alumne id="36993803926"/>
+        <alumne id="36993835358"/>
+        <alumne id="36993901838"/>
+        <alumne id="37010567340"/>
+        <alumne id="37027359976"/>
+        <alumne id="37060872167"/>
+      </alumnes>
+      </grup>
+    <grup id="30350064235" codi="ESO LOE 1 C" nom="1r ESO C Clil" etapa="ESO LOE" subetapa="ESO LOE" nivell="1" regim="01">
+      <alumnes>
+		<alumne id="36960230809"/>
+        <alumne id="36960234765"/>
+        <alumne id="36960237185"/>
+        <alumne id="36960238955"/>
+        <alumne id="36960240838"/>
+        <alumne id="36960242879"/>
+        <alumne id="36960243504"/>
+        <alumne id="36960279007"/>
+        <alumne id="36976999591"/>
+        <alumne id="36977022187"/>
+        <alumne id="36977026704"/>
+        <alumne id="36977027616"/>
+        <alumne id="36977027813"/>
+        <alumne id="36977034166"/>
+        <alumne id="36977035187"/>
+        <alumne id="36977039893"/>
+        <alumne id="36977043507"/>
+        <alumne id="36993800718"/>
+        <alumne id="36993801200"/>
+        <alumne id="36993810138"/>
+        <alumne id="37010564619"/>
+        <alumne id="37010565282"/>
+        <alumne id="37010567083"/>
+        <alumne id="37010569352"/>
+        <alumne id="37010569948"/>  
+      </alumnes>
+    </grup>
+    <grup id="30266314106" codi="ESO LOE 1 D" nom="1r ESO D (PIM)" etapa="ESO LOE" subetapa="ESO LOE" nivell="1" regim="01">
+      <alumnes>
+		<alumne id="34141644827"/>
+        <alumne id="34225526841"/>
+        <alumne id="36960242496"/>
+        <alumne id="36960244287"/>
+        <alumne id="36960277455"/>
+        <alumne id="36977034406"/>
+        <alumne id="36993834981"/>
+        <alumne id="36993848623"/>
+        <alumne id="36993854060"/>
+        <alumne id="36993854084"/>
+        <alumne id="36993855394"/>
+        <alumne id="37010564971"/>
+        <alumne id="37010634760"/>
+        <alumne id="37027359321"/>
+        <alumne id="37278975474"/>
+        <alumne id="37362883773"/>
+        <alumne id="37396483810"/>
+      </alumnes>
+    </grup>
+    <grup id="30282882431" codi="ESO LOE 2 A" nom="2n ESO A" etapa="ESO LOE" subetapa="ESO LOE" nivell="2" regim="01">
+      <alumnes>
+		<alumne id="29360149453"/>
+        <alumne id="33084706658"/>
+        <alumne id="33923615243"/>
+        <alumne id="33923617656"/>
+        <alumne id="33923624530"/>
+        <alumne id="33923629074"/>
+        <alumne id="33923642595"/>
+        <alumne id="33940390983"/>
+        <alumne id="33940438849"/>
+        <alumne id="33940445866"/>
+        <alumne id="33973863409"/>
+        <alumne id="33973864892"/>
+        <alumne id="33973868223"/>
+        <alumne id="34074536280"/>
+        <alumne id="34074539081"/>
+        <alumne id="34074539696"/>
+        <alumne id="34091306771"/>
+        <alumne id="34225525936"/>
+        <alumne id="34242306175"/>
+        <alumne id="34930408628"/>
+        <alumne id="36406585682"/>
+        <alumne id="36557558115"/>
+        <alumne id="37497103097"/>      
+      </alumnes>
+    </grup>
+    <grup id="30282882437" codi="ESO LOE 2 B" nom="2n ESO B" etapa="ESO LOE" subetapa="ESO LOE" nivell="2" regim="01">
+      <alumnes>
+		<alumne id="29075001805"/>
+        <alumne id="29091863542"/>
+        <alumne id="29091869217"/>
+        <alumne id="29125363067"/>
+        <alumne id="33923618675"/>
+        <alumne id="33923637642"/>
+        <alumne id="33923641703"/>
+        <alumne id="33940437861"/>
+        <alumne id="33940445722"/>
+        <alumne id="33940447934"/>
+        <alumne id="33940448355"/>
+        <alumne id="33940448950"/>
+        <alumne id="33973862963"/>
+        <alumne id="33973864712"/>
+        <alumne id="33973869913"/>
+        <alumne id="34091307978"/>
+        <alumne id="34175193215"/>
+        <alumne id="34175198845"/>
+        <alumne id="34275855064"/>
+        <alumne id="35081243810"/>
+        <alumne id="35081245140"/>
+        <alumne id="35165049501"/>
+        <alumne id="37530684569"/>    
+      </alumnes>
+    </grup>
+    <grup id="30266314199" codi="ESO LOE 2 C" nom="2n ESO C Clil" etapa="ESO LOE" subetapa="ESO LOE" nivell="2" regim="01">
+      <alumnes>
+		<alumne id="33923616702"/>
+        <alumne id="33923639805"/>
+        <alumne id="33923640270"/>
+        <alumne id="33923640897"/>
+        <alumne id="33923643875"/>
+        <alumne id="33940386947"/>
+        <alumne id="33940435675"/>
+        <alumne id="33940439518"/>
+        <alumne id="33940439744"/>
+        <alumne id="33940442578"/>
+        <alumne id="33940442811"/>
+        <alumne id="33940444056"/>
+        <alumne id="33940447041"/>
+        <alumne id="33940447238"/>
+        <alumne id="33973864234"/>
+        <alumne id="33973867874"/>
+        <alumne id="33973868541"/>
+        <alumne id="33973868888"/>
+        <alumne id="33973869467"/>
+        <alumne id="34074534747"/>
+        <alumne id="34074535264"/>
+        <alumne id="34091306162"/>
+        <alumne id="34141649814"/>
+        <alumne id="34175193967"/>
+        <alumne id="34175197985"/>       
+      </alumnes>
+    </grup>
+    <grup id="34896738621" codi="ESO LOE 2 D" nom="2n ESO D (PIM)" etapa="ESO LOE" subetapa="ESO LOE" nivell="2" regim="01">
+      <alumnes>
+		<alumne id="29091873620"/>
+        <alumne id="29108586344"/>
+        <alumne id="29108641210"/>
+        <alumne id="29108648381"/>
+        <alumne id="29125312671"/>
+        <alumne id="29125349032"/>
+        <alumne id="29360167300"/>
+        <alumne id="30534560235"/>
+        <alumne id="33923614310"/>
+        <alumne id="33940446777"/>
+        <alumne id="33973869170"/>
+        <alumne id="34175199358"/>
+        <alumne id="34225520642"/>
+        <alumne id="34275854945"/>
+        <alumne id="34275856843"/>
+        <alumne id="35081244858"/>
+        <alumne id="35081244887"/>
+        <alumne id="37295753962"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882443" codi="ESO LOE 3 A" nom="3r ESO A" etapa="ESO LOE" subetapa="ESO LOE" nivell="3" regim="01">
+      <alumnes>
+		<alumne id="25954656369"/>
+        <alumne id="29074984027"/>
+        <alumne id="29074989523"/>
+        <alumne id="29075002175"/>
+        <alumne id="29075006869"/>
+        <alumne id="29075074865"/>
+        <alumne id="29091863427"/>
+        <alumne id="29091866422"/>
+        <alumne id="29091867402"/>
+        <alumne id="29108550814"/>
+        <alumne id="29108595549"/>
+        <alumne id="29108600314"/>
+        <alumne id="29108602367"/>
+        <alumne id="29108643062"/>
+        <alumne id="29125307089"/>
+        <alumne id="29125308281"/>
+        <alumne id="29125336412"/>
+        <alumne id="29125338563"/>
+        <alumne id="29125341513"/>
+        <alumne id="29125345917"/>
+        <alumne id="29125347640"/>
+        <alumne id="29125370359"/>
+        <alumne id="36993911855"/>
+        <alumne id="37094429384"/>
+        <alumne id="37211866846"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882449" codi="ESO LOE 3 B" nom="3r ESO B" etapa="ESO LOE" subetapa="ESO LOE" nivell="3" regim="01">
+      <alumnes>
+		<alumne id="29074981635"/>
+        <alumne id="29075000794"/>
+        <alumne id="29075004732"/>
+        <alumne id="29075006633"/>
+        <alumne id="29075071184"/>
+        <alumne id="29091861547"/>
+        <alumne id="29091862105"/>
+        <alumne id="29091864309"/>
+        <alumne id="29091866225"/>
+        <alumne id="29091868731"/>
+        <alumne id="29091871398"/>
+        <alumne id="29091872903"/>
+        <alumne id="29108590540"/>
+        <alumne id="29108650077"/>
+        <alumne id="29125361515"/>
+        <alumne id="29125363393"/>
+        <alumne id="29360140505"/>
+        <alumne id="29360149206"/>
+        <alumne id="36222050821"/>
+        <alumne id="36993911691"/>
+        <alumne id="37044114652"/>
+        <alumne id="37094429804"/>
+        <alumne id="37211866725"/>
+        <alumne id="37278975556"/>        
+      </alumnes>
+    </grup>
+    <grup id="30266314208" codi="ESO LOE 3 C" nom="3r ESO C" etapa="ESO LOE" subetapa="ESO LOE" nivell="3" regim="01">
+      <alumnes>
+		<alumne id="25937669251"/>
+        <alumne id="26004738306"/>
+        <alumne id="27548206201"/>
+        <alumne id="29075071529"/>
+        <alumne id="29075072620"/>
+        <alumne id="29091861970"/>
+        <alumne id="29091864460"/>
+        <alumne id="29108598952"/>
+        <alumne id="29108640616"/>
+        <alumne id="29108649045"/>
+        <alumne id="29108650342"/>
+        <alumne id="29125349869"/>
+        <alumne id="29125362526"/>
+        <alumne id="29360166526"/>
+        <alumne id="30366855565"/>
+        <alumne id="30853325742"/>
+        <alumne id="36339459226"/>
+        <alumne id="36993910031"/>
+        <alumne id="37396434694"/>
+        <alumne id="37480437421"/>       
+      </alumnes>
+    </grup>
+	<grup id="30266314339" codi="ESO LOE 3 D" nom="3r ESO D" etapa="ESO LOE" subetapa="ESO LOE" nivell="3" regim="01">
+      <alumnes>
+		<alumne id="25954660396"/>
+        <alumne id="26491224219"/>
+        <alumne id="29075062049"/>
+        <alumne id="29091864803"/>
+        <alumne id="29091865423"/>
+        <alumne id="29091867985"/>
+        <alumne id="29108587747"/>
+        <alumne id="29108597991"/>
+        <alumne id="29125337022"/>
+        <alumne id="35249054767"/>
+        <alumne id="37698426143"/>
+        <alumne id="37698426233"/>
+        <alumne id="37698426288"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882455" codi="ESO LOE 4 A" nom="4t ESO A" etapa="ESO LOE" subetapa="ESO LOE" nivell="4" regim="01">
+      <alumnes>
+		<alumne id="25937660097"/>
+        <alumne id="25937667428"/>
+        <alumne id="25937668810"/>
+        <alumne id="25937668989"/>
+        <alumne id="25937671641"/>
+        <alumne id="25954602294"/>
+        <alumne id="25954603833"/>
+        <alumne id="25954607948"/>
+        <alumne id="25954610085"/>
+        <alumne id="25954649253"/>
+        <alumne id="25971214748"/>
+        <alumne id="25971216026"/>
+        <alumne id="25971218883"/>
+        <alumne id="25988016443"/>
+        <alumne id="25988020515"/>
+        <alumne id="25988023340"/>
+        <alumne id="26004726567"/>
+        <alumne id="27749547000"/>
+        <alumne id="30786211435"/>
+        <alumne id="33571219437"/>
+        <alumne id="35148282331"/>
+        <alumne id="35819362057"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882461" codi="ESO LOE 4 B" nom="4t ESO B" etapa="ESO LOE" subetapa="ESO LOE" nivell="4" regim="01">
+      <alumnes>
+		<alumne id="23723026154"/>
+        <alumne id="25937662421"/>
+        <alumne id="25937664075"/>
+        <alumne id="25937667114"/>
+        <alumne id="25937669548"/>
+        <alumne id="25937676723"/>
+        <alumne id="25937678170"/>
+        <alumne id="25954604204"/>
+        <alumne id="25971216678"/>
+        <alumne id="25971219188"/>
+        <alumne id="25971219653"/>
+        <alumne id="25988016763"/>
+        <alumne id="25988020962"/>
+        <alumne id="25988021566"/>
+        <alumne id="25988021957"/>
+        <alumne id="25988026275"/>
+        <alumne id="26004727186"/>
+        <alumne id="26004732069"/>
+        <alumne id="27950906691"/>
+        <alumne id="27950907036"/>
+        <alumne id="30266339640"/>
+        <alumne id="30786211243"/>
+        <alumne id="35215425445"/>
+        <alumne id="35416705192"/>        
+      </alumnes>
+    </grup>
+    <grup id="30266314349" codi="ESO LOE 4 C" nom="4t ESO Ref" etapa="ESO LOE" subetapa="ESO LOE" nivell="4" regim="01">
+      <alumnes>
+		<alumne id="23773368534"/>
+        <alumne id="23773369503"/>
+        <alumne id="25937660903"/>
+        <alumne id="25937672928"/>
+        <alumne id="25954602390"/>
+        <alumne id="25954606171"/>
+        <alumne id="25954661028"/>
+        <alumne id="25971215083"/>
+        <alumne id="25988030723"/>
+        <alumne id="25988031300"/>
+        <alumne id="26004725669"/>
+        <alumne id="26105349256"/>
+        <alumne id="30853315290"/>
+        <alumne id="34846293744"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882211" codi="BATX LOE 1 A" nom="1r de Batxillerat A" etapa="BATX LOE" nivell="1" regim="01">
+      <alumnes>
+		<alumne id="20015304698"/>
+        <alumne id="22498423255"/>
+        <alumne id="23723020431"/>
+        <alumne id="23723031996"/>
+        <alumne id="23739875277"/>
+        <alumne id="23739883443"/>
+        <alumne id="23773324672"/>
+        <alumne id="23773327010"/>
+        <alumne id="23773346663"/>
+        <alumne id="23773348995"/>
+        <alumne id="23773350792"/>
+        <alumne id="23773354594"/>
+        <alumne id="23773356635"/>
+        <alumne id="23773365527"/>
+        <alumne id="23773387797"/>
+        <alumne id="23773400097"/>
+        <alumne id="23806885195"/>
+        <alumne id="23840435908"/>
+        <alumne id="24243284278"/>
+        <alumne id="35081245200"/>
+        <alumne id="35215425481"/>
+        <alumne id="37279006466"/>
+        <alumne id="37564199487"/>
+        <alumne id="37564199820"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882219" codi="BATX LOE 1 B" nom="1r de Batxillerat B" etapa="BATX LOE" nivell="1" regim="01">
+      <alumnes>
+		<alumne id="23739823564"/>
+        <alumne id="23739875506"/>
+        <alumne id="23739879039"/>
+        <alumne id="23773323813"/>
+        <alumne id="23773337007"/>
+        <alumne id="23773352956"/>
+        <alumne id="23773354137"/>
+        <alumne id="23773368868"/>
+        <alumne id="23773371135"/>
+        <alumne id="23773374666"/>
+        <alumne id="23773399481"/>
+        <alumne id="23806881419"/>
+        <alumne id="23857235504"/>
+        <alumne id="24444512714"/>
+        <alumne id="35064424585"/>
+        <alumne id="35165050028"/>
+        <alumne id="37295786433"/>
+        <alumne id="37480440641"/>
+        <alumne id="37480440990"/>
+        <alumne id="37513863404"/>
+        <alumne id="37564199057"/>
+        <alumne id="37564199103"/>
+        <alumne id="37564199230"/>
+        <alumne id="37564200014"/>
+        <alumne id="37564200141"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882223" codi="BATX LOE 2 A" nom="2n de Batxillerat" etapa="BATX LOE" nivell="2" regim="01">
+      <alumnes>
+		<alumne id="20015292761"/>
+        <alumne id="21659908644"/>
+        <alumne id="21659912954"/>
+        <alumne id="21659937875"/>
+        <alumne id="21659948781"/>
+        <alumne id="21659949956"/>
+        <alumne id="21660107469"/>
+        <alumne id="21693125543"/>
+        <alumne id="21693144859"/>
+        <alumne id="21793608833"/>
+        <alumne id="30266339878"/>
+        <alumne id="30282886127"/>
+        <alumne id="34947090272"/>
+        <alumne id="37513949008"/>   
+		<alumne id="21659912182"/>
+        <alumne id="21659944164"/>
+        <alumne id="21659957585"/>
+        <alumne id="21660100923"/>
+        <alumne id="21693041465"/>
+        <alumne id="22498357091"/>
+        <alumne id="34947086725"/>
+        <alumne id="34947087740"/>
+        <alumne id="34947088735"/>
+        <alumne id="35215457181"/>
+        <alumne id="35282560783"/>
+        <alumne id="35282567249"/>
+        <alumne id="37497158167"/>
+        <alumne id="37497193559"/>
+        <alumne id="37513948414"/>		
+      </alumnes>
+    </grup>
+    <grup id="30282882227" codi="CFPM AG10 A" nom="CFGM AG10 1r Gestió Administrativa" etapa="CFPM" subetapa="AG10" regim="02">
+      <alumnes>
+		<alumne id="34946956271"/>
+        <alumne id="34946956995"/>
+        <alumne id="37245514881"/>
+        <alumne id="37245527854"/>
+        <alumne id="37245530440"/>
+        <alumne id="37262260366"/>
+        <alumne id="37262265275"/>
+        <alumne id="37279017421"/>
+        <alumne id="37279023452"/>
+        <alumne id="37279027057"/>
+        <alumne id="37295785954"/>
+        <alumne id="37295828499"/>
+        <alumne id="37295860903"/>
+        <alumne id="37295861278"/>
+        <alumne id="37295862491"/>
+        <alumne id="37480352153"/>
+        <alumne id="37480352237"/>
+        <alumne id="37480352317"/>
+        <alumne id="37497156935"/>
+        <alumne id="37497157161"/>
+        <alumne id="37513964425"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882238" codi="CFPM AG10 B" nom="CFGM AG10 2n Gestió Administrativa" etapa="CFPM" subetapa="AG10" regim="02">
+      <alumnes>
+		<alumne id="30316451096"/>
+        <alumne id="34896686266"/>
+        <alumne id="34896698775"/>
+        <alumne id="34896704985"/>
+        <alumne id="34896710955"/>
+        <alumne id="34896711343"/>
+        <alumne id="34946959092"/>
+        <alumne id="34946959979"/>
+        <alumne id="35030873609"/>
+        <alumne id="35064431578"/>
+        <alumne id="35081297104"/>
+        <alumne id="35215378006"/>
+        <alumne id="35249032095"/>
+        <alumne id="37497156666"/>
+        <alumne id="37497158102"/>
+        <alumne id="37497194995"/>
+        <alumne id="37698407531"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882260" codi="CFPM IC10 A" nom="CFGM IC10 1r Sist mic inf i xarxa" etapa="CFPM" subetapa="IC10" regim="02">
+      <alumnes>
+	    <alumne id="34896669776"/>
+        <alumne id="34896674744"/>
+        <alumne id="34896686893"/>
+        <alumne id="35114714538"/>
+        <alumne id="37245513954"/>
+        <alumne id="37245524779"/>
+        <alumne id="37262205691"/>
+        <alumne id="37262206504"/>
+        <alumne id="37262211652"/>
+        <alumne id="37262260495"/>
+        <alumne id="37262260888"/>
+        <alumne id="37262261286"/>
+        <alumne id="37279009982"/>
+        <alumne id="37279010224"/>
+        <alumne id="37279011682"/>
+        <alumne id="37279012308"/>
+        <alumne id="37279015404"/>
+        <alumne id="37279022683"/>
+        <alumne id="37295821162"/>
+        <alumne id="37295827150"/>
+        <alumne id="37295863321"/>
+        <alumne id="37396476575"/>
+        <alumne id="37480345470"/>
+        <alumne id="37480347700"/>
+        <alumne id="37480348538"/>
+      </alumnes>
+    </grup>
+    <grup id="30282882271" codi="CFPM IC10 B" nom="CFGM IC10 2n Sist mic inf i xarxa" etapa="CFPM" subetapa="IC10" regim="02">
+      <alumnes>
+        <alumne id="21390989561"/>
+        <alumne id="30266145411"/>
+        <alumne id="30299679971"/>
+        <alumne id="30685638183"/>
+        <alumne id="30685639262"/>
+        <alumne id="30769420066"/>
+        <alumne id="30819857696"/>
+        <alumne id="34896670182"/>
+        <alumne id="34896671211"/>
+        <alumne id="34896674530"/>
+        <alumne id="34896675009"/>
+        <alumne id="34896677552"/>
+        <alumne id="34896678692"/>
+        <alumne id="34896685009"/>
+        <alumne id="34896713716"/>
+        <alumne id="34947078389"/>
+        <alumne id="34947082707"/>
+        <alumne id="35081246802"/>
+        <alumne id="35114714089"/>
+        <alumne id="35114714604"/>
+        <alumne id="37245445259"/>
+        <alumne id="37295780769"/>
+      </alumnes>
+    </grup>
+    <grup id="30282882293" codi="CFPM IM10 A" nom="CFGM IM10 1r Mant Electr-Mecanic LOE" etapa="CFPM" subetapa="IM10" regim="03">
+      <alumnes>	
+		<alumne id="37245523684"/>
+        <alumne id="37245525433"/>
+        <alumne id="37262255254"/>
+        <alumne id="37262256442"/>
+        <alumne id="37279009398"/>
+        <alumne id="37279028085"/>
+        <alumne id="37295856822"/>
+        <alumne id="37396492659"/>
+        <alumne id="37480351293"/>
+        <alumne id="37480351535"/>
+        <alumne id="37480351644"/>
+        <alumne id="37480351714"/>
+        <alumne id="37497154858"/>
+        <alumne id="37497155327"/>
+        <alumne id="37497156533"/>
+        <alumne id="37497160558"/>
+        <alumne id="37513945163"/>
+        <alumne id="37513946539"/>
+        <alumne id="37580965436"/>
+        <alumne id="37580965830"/>
+        <alumne id="37580966331"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882304" codi="CFPM IM10 B" nom="CFGM IM10 2n. Mant Electr-Mecanic LOE" etapa="CFPM" subetapa="IM10" regim="03">
+      <alumnes>
+		<alumne id="34896681708"/>
+        <alumne id="34947075749"/>
+        <alumne id="35215402650"/>
+        <alumne id="35215403731"/>
+        <alumne id="35215404381"/>
+        <alumne id="37295787661"/>
+        <alumne id="37480351973"/>
+        <alumne id="37480352058"/>
+        <alumne id="37497156397"/>
+        <alumne id="37513997668"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882315" codi="CFPS AGB0 A" nom="CFGS AGBO 1r Administracio i Finances" etapa="CFPS" subetapa="AGB0" regim="03">
+      <alumnes>
+		<alumne id="35215411456"/>
+        <alumne id="35634813882"/>
+        <alumne id="37396420002"/>
+        <alumne id="37396420567"/>
+        <alumne id="37396422372"/>
+        <alumne id="37396453244"/>
+        <alumne id="37396467762"/>
+        <alumne id="37396470898"/>
+        <alumne id="37396490552"/>
+        <alumne id="37413200410"/>
+        <alumne id="37497158305"/>
+        <alumne id="37497159495"/>
+        <alumne id="37513947014"/>
+        <alumne id="37513965158"/>
+        <alumne id="37580993623"/>
+        <alumne id="37698406957"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882326" codi="CFPS AGB0 B" nom="CFGS AGBO 2n Administracio i Finances" etapa="CFPS" subetapa="AGB0" regim="03">
+      <alumnes>
+		<alumne id="16542408377"/>
+        <alumne id="35215388199"/>
+        <alumne id="35215388976"/>
+        <alumne id="35215395140"/>
+        <alumne id="35215395236"/>
+        <alumne id="35215395657"/>
+        <alumne id="37480352563"/>
+        <alumne id="37480352646"/>
+        <alumne id="37513945010"/>
+        <alumne id="37513946628"/>
+        <alumne id="37513947632"/>
+        <alumne id="37513963821"/>
+        <alumne id="37580970557"/>
+        <alumne id="37715226623"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882338" codi="CFPS ICB0 A" nom="CFGS ICB0 1r DAM" etapa="CFPS" subetapa="ICB0" regim="03">
+      <alumnes>
+		<alumne id="37396452838"/>
+        <alumne id="37396453866"/>
+        <alumne id="37396454341"/>
+        <alumne id="37396457342"/>
+        <alumne id="37396457961"/>
+        <alumne id="37396478604"/>
+        <alumne id="37413197063"/>
+        <alumne id="37413198064"/>
+        <alumne id="37413200011"/>
+        <alumne id="37413202017"/>
+        <alumne id="37413202846"/>
+        <alumne id="37413203213"/>
+        <alumne id="37413205567"/>
+        <alumne id="37480325260"/>        
+      </alumnes>
+    </grup>
+    <grup id="30282882349" codi="CFPS ICB0 B" nom="CFGS ICB0 2n DAM" etapa="CFPS" subetapa="ICB0" regim="03">
+      <alumnes>
+		<alumne id="25971822394"/>
+        <alumne id="34896675242"/>
+        <alumne id="34930232562"/>
+        <alumne id="34947091131"/>
+        <alumne id="35215383146"/>
+        <alumne id="35215383416"/>
+        <alumne id="35215383487"/>
+        <alumne id="35215384587"/>
+        <alumne id="35215384962"/>
+        <alumne id="35215385355"/>
+        <alumne id="35215385975"/>
+        <alumne id="35215386910"/>
+        <alumne id="35215411955"/>
+        <alumne id="35215412913"/>
+        <alumne id="35215413359"/>
+        <alumne id="35215413596"/>
+        <alumne id="35282515177"/>
+        <alumne id="35316044691"/>      
+      </alumnes>
+    </grup>
+    <grup id="30282882386" codi="CFPS IMC0 A" nom="CFGS IMC0 1r Mecatronica" etapa="CFPS" subetapa="IMC0" regim="03">
+      <alumnes>
+		<alumne id="35215417356"/>
+        <alumne id="37379657371"/>
+        <alumne id="37396419214"/>
+        <alumne id="37396420857"/>
+        <alumne id="37396436629"/>
+        <alumne id="37396440688"/>
+        <alumne id="37396441348"/>
+        <alumne id="37396442007"/>
+        <alumne id="37396451251"/>
+        <alumne id="37396456517"/>
+        <alumne id="37396475093"/>
+        <alumne id="37396477117"/>
+        <alumne id="37396483268"/>
+        <alumne id="37396486673"/>
+        <alumne id="37396489083"/>
+        <alumne id="37396489516"/>
+        <alumne id="37413204505"/>
+        <alumne id="37463535011"/>
+        <alumne id="37480352395"/>
+        <alumne id="37480352488"/>
+        <alumne id="37497158573"/>
+        <alumne id="37497159165"/>
+        <alumne id="37580970675"/>      
+      </alumnes>
+    </grup>
+    <grup id="30282882397" codi="CFPS IMC0 B" nom="CFGS IMC0 2n Mecatronica" etapa="CFPS" subetapa="IMC0" regim="03">
+      <alumnes>
+		<alumne id="30249493276"/>
+        <alumne id="30266185035"/>
+        <alumne id="31356678182"/>
+        <alumne id="31356712030"/>
+        <alumne id="34896673484"/>
+        <alumne id="34896679544"/>
+        <alumne id="34930221882"/>
+        <alumne id="35215387495"/>
+        <alumne id="35215415024"/>
+        <alumne id="35215415166"/>
+        <alumne id="35215415516"/>
+        <alumne id="35215415775"/>
+        <alumne id="35215416098"/>
+        <alumne id="35215416606"/>
+        <alumne id="35249032338"/>
+        <alumne id="35249033139"/>
+        <alumne id="35249033325"/>
+        <alumne id="37497164028"/>
+        <alumne id="37513945513"/>
+        <alumne id="37513963374"/>       
+      </alumnes>
+    </grup>
+    <grup id="30282882209" codi="CAS" nom="Curs de formació específic per a l&apos;accés als cicle" etapa="AAAA" subetapa="AA02" regim="03">
+      <alumnes>
+      </alumnes>
+    </grup>
+  </grups>
+</saga-centre>
