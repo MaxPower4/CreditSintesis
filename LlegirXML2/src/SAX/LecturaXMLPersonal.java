@@ -3,6 +3,7 @@ package SAX;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -15,10 +16,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import com.mongodb.MongoClient;
+import com.mongodb.util.JSON;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -77,17 +80,28 @@ public class LecturaXMLPersonal {
 		}
 	}
 	public static void ConvertiJson(ArrayList listaPersonal){
-		
+		MongoClient mongoClient = ConnexioMongoDB();
+		 // Now connect to your databases
+        DB db = mongoClient.getDB("Absencies");
+        db.createCollection("Personal", null);
         
-		JSONObject objPersonal = new JSONObject();
-		try{
-			objPersonal.put("ID",listaPersonal.get(0));
-		}catch(JSONException ex){
-			System.err.println("JSONException: " + ex.getMessage());
+		Personal p;
+		DBCollection coll = db.getCollection("Personal");
+		for(int i=0; i< listaPersonal.size(); i++){
+			p = (Personal) listaPersonal.get(i);
+			DBObject document = new BasicDBObject();
+			document.put("ID", p.getId());
+			document.put("Tipus", p.getTipus());
+			document.put("Nom", p.getNom());
+			document.put("Cognom1", p.getCognom1());
+			document.put("Cognom2", p.getCognom2());
+			document.put("Document Identitat", p.getDocumentidentitat());
+			coll.insert(document);
 		}
+		
 	}
 	
-	public static void ConnexioMongoDB(){
+	public static MongoClient ConnexioMongoDB(){
 		 // To connect to mongodb server
         MongoClient mongoClient = new MongoClient( "10.10.10.11" , 27017);
 
@@ -98,5 +112,7 @@ public class LecturaXMLPersonal {
         if(db != null){
        	  System.out.println("Connect to database successfully");
         }
+        
+        return mongoClient;
 	}
 }
