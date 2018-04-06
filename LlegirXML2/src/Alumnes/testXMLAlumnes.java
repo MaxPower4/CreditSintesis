@@ -1,4 +1,4 @@
-package SAX;
+package Alumnes;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import javax.xml.transform.TransformerException;
 
 import org.xml.sax.SAXException;
 
-public class testXMLGrups {
+public class testXMLAlumnes {
 
 	public static void main(String[] args) throws ParserConfigurationException, TransformerException, SAXException, IOException {
 		Scanner lector = new Scanner(System.in);
@@ -17,8 +17,11 @@ public class testXMLGrups {
 		System.out.println("Introdueix el nom del document: ");
 		String nomdoc = lector.nextLine();
 	
-		LecturaXMLGrups lxml = new LecturaXMLGrups();
+		LecturaXMLAlumnes lxml = new LecturaXMLAlumnes();
 		lxml.LecturaXML(nomdoc);
+
+	
+		
 	}
 
 

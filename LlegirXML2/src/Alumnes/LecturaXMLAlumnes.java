@@ -1,4 +1,4 @@
-package SAX;
+package Alumnes;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,9 +15,9 @@ import org.xml.sax.SAXException;
 
 // Programa per llegir un fitxer XML amb DOM
 
-public class LecturaXMLPlansEstudi {
+public class LecturaXMLAlumnes {
 
-	public LecturaXMLPlansEstudi() {
+	public LecturaXMLAlumnes() {
 	}
 
 	public void LecturaXML(String fitxer) throws SAXException, IOException, ParserConfigurationException {
@@ -33,36 +33,43 @@ public class LecturaXMLPlansEstudi {
 			doc.getDocumentElement().normalize();
 			System.out.println("L'element arrel del document: " + doc.getDocumentElement().getNodeName());
 			// llista de nodes treballadors
-			NodeList llistaEstudiants = doc.getElementsByTagName("pla-estudis");
+			NodeList llistaEstudiants = doc.getElementsByTagName("alumne");
 
 			// Recorrem la llista
 
 			for (int i = 0; i < llistaEstudiants.getLength(); i++) {
 				Node estudiant = llistaEstudiants.item(i);
-				System.out.println("Element: " + estudiant.getNodeName());
+				//System.out.println("Element: " + estudiant.getNodeName());
+
 				if (estudiant.getNodeType() == Node.ELEMENT_NODE) { // Si es un
-																	// element
 					// Obtenir els elements del node
-					Element element = (Element) estudiant;
-
-					System.out.println("\n");
-					System.out.print("\nIDpla: " + element.getAttribute("id"));
-					System.out.print("\nEtapa: " + element.getAttribute("etapa"));
-					System.out.print("\nSubetapa: " + element.getAttribute("subetapa"));
-					System.out.println("\nNom: " + element.getAttribute("nom"));
-
+					Element element = (Element) estudiant; // element
+					if (element.getAttribute("nom").isEmpty()) {
+						
+					}else{
+						System.out.println("\n");
+						System.out.print("\nID: " + element.getAttribute("id"));
+						System.out.print("\nNom: " + element.getAttribute("nom"));
+						System.out.print("\nCognom1: " + element.getAttribute("cognom1"));
+						System.out.print("\nCognom2: " + element.getAttribute("cognom2"));
+						System.out.print("\nData-naixament: " + element.getAttribute("datanaixament"));
+						System.out.print("\nDocument-identitat: " + element.getAttribute("documentidentitat"));
+						System.out.print("\nTipus-document: " + element.getAttribute("tipusdocument"));
+						System.out.println("\nSexe: " + element.getAttribute("sexe"));
+					}
 					// llista de nodes de les assignatures
 					NodeList llistaAssignatures = element.getChildNodes();
 					for (int j = 0; j < llistaAssignatures.getLength(); j++) {
 						Node estudiant2 = llistaAssignatures.item(j);
-						if (estudiant2.getNodeType() == Node.ELEMENT_NODE) { // Si es un element
+						if (estudiant2.getNodeType() == Node.ELEMENT_NODE) { // Si
+																				// es
+																				// un
+																				// element
 							System.out.println("\n");
 							Element element2 = (Element) estudiant2;
-							System.out.println("IDcon: " + element2.getAttribute("id"));
-							System.out.println("Codi: " + element2.getAttribute("codi"));
-							System.out.println("Nom: " + element2.getAttribute("nom"));
-							System.out.println("Categoria: " + element2.getAttribute("categoria"));
+							System.out.println("Contacte: " + element2.getAttribute("contacte"));
 							System.out.println("Tipus: " + element2.getAttribute("tipus"));
+							System.out.println("Descripcio: " + element2.getAttribute("descripcio"));
 						}
 					}
 				}

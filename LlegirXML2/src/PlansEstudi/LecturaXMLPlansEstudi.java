@@ -1,8 +1,7 @@
-package SAX;
+package PlansEstudi;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -16,9 +15,9 @@ import org.xml.sax.SAXException;
 
 // Programa per llegir un fitxer XML amb DOM
 
-public class LecturaXMLGrups {
+public class LecturaXMLPlansEstudi {
 
-	public LecturaXMLGrups() {
+	public LecturaXMLPlansEstudi() {
 	}
 
 	public void LecturaXML(String fitxer) throws SAXException, IOException, ParserConfigurationException {
@@ -34,7 +33,7 @@ public class LecturaXMLGrups {
 			doc.getDocumentElement().normalize();
 			System.out.println("L'element arrel del document: " + doc.getDocumentElement().getNodeName());
 			// llista de nodes treballadors
-			NodeList llistaEstudiants = doc.getElementsByTagName("grup");
+			NodeList llistaEstudiants = doc.getElementsByTagName("pla-estudis");
 
 			// Recorrem la llista
 
@@ -47,41 +46,25 @@ public class LecturaXMLGrups {
 					Element element = (Element) estudiant;
 
 					System.out.println("\n");
-					System.out.print("\nIDgrup: " + element.getAttribute("id"));
-					System.out.print("\nCodi: " + element.getAttribute("codi"));
-					System.out.print("\nNom: " + element.getAttribute("nom"));
+					System.out.print("\nIDpla: " + element.getAttribute("id"));
 					System.out.print("\nEtapa: " + element.getAttribute("etapa"));
 					System.out.print("\nSubetapa: " + element.getAttribute("subetapa"));
-					System.out.print("\nNivell: " + element.getAttribute("nivell"));
-					System.out.print("\nRegim: " + element.getAttribute("regim"));
+					System.out.println("\nNom: " + element.getAttribute("nom"));
 
 					// llista de nodes de les assignatures
-
 					NodeList llistaAssignatures = element.getChildNodes();
-					
 					for (int j = 0; j < llistaAssignatures.getLength(); j++) {
 						Node estudiant2 = llistaAssignatures.item(j);
-						if (estudiant2.getNodeType() == Node.ELEMENT_NODE) {
+						if (estudiant2.getNodeType() == Node.ELEMENT_NODE) { // Si es un element
 							System.out.println("\n");
 							Element element2 = (Element) estudiant2;
-
-							NodeList llistaAssignatures2 = element2.getChildNodes();
-
-							for (int k = 0; k < llistaAssignatures2.getLength(); k++) {
-
-								Node estudiant3 = llistaAssignatures2.item(k);
-								if (estudiant3.getNodeType() == Node.ELEMENT_NODE) {
-									// Obtenir els elements del node
-									Element element3 = (Element) estudiant3;
-									System.out.println(element3.getNodeName());
-									System.out.println("IDalum: " + element3.getAttribute("id"));
-								}
-							}
+							System.out.println("IDcon: " + element2.getAttribute("id"));
+							System.out.println("Codi: " + element2.getAttribute("codi"));
+							System.out.println("Nom: " + element2.getAttribute("nom"));
+							System.out.println("Categoria: " + element2.getAttribute("categoria"));
+							System.out.println("Tipus: " + element2.getAttribute("tipus"));
 						}
 					}
-					Scanner lector = new Scanner(System.in);
-					lector.nextLine();
-
 				}
 			}
 		} else {
