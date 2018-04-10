@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="C:/Users/DAM/Documents/GitHub/CreditSintesis/Lib/kxml2-min-2.3.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DAM/Documents/GitHub/CreditSintesis/Lib/mongo-java-driver-3.6.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DAM/Documents/GitHub/CreditSintesis/Lib/xstream-1.4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DAM/Documents/GitHub/CreditSintesis/Lib/gson-2.2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

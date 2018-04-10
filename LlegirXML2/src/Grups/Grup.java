@@ -1,15 +1,18 @@
 package Grups;
 
+import java.util.ArrayList;
+
 public class Grup {
 	private String id;
 	private String codi;
 	private String nom;
 	private String etapa;
 	private String subetapa;
-	private int nivell;
-	private int regim;
+	private String nivell;
+	private String regim;
+	ArrayList<Alumne> ListaAlumne = new ArrayList<Alumne>();
 	
-	public Grup(String id, String codi, String nom, String etapa, String subetapa, int nivell, int regim) {
+	public Grup(String id, String codi, String nom, String etapa, String subetapa, String nivell, String regim, ArrayList<Alumne> ListaAlumne) {
 		super();
 		this.id = id;
 		this.codi = codi;
@@ -18,6 +21,15 @@ public class Grup {
 		this.subetapa = subetapa;
 		this.nivell = nivell;
 		this.regim = regim;
+		this.ListaAlumne.addAll(ListaAlumne);
+	}
+
+	public ArrayList<Alumne> getListaAlumne() {
+		return ListaAlumne;
+	}
+
+	public void setListaAlumne(Alumne listaAlumne) {
+		this.ListaAlumne.add(listaAlumne);
 	}
 
 	public String getId() {
@@ -60,27 +72,28 @@ public class Grup {
 		this.subetapa = subetapa;
 	}
 
-	public int getNivell() {
+	public String getNivell() {
 		return nivell;
 	}
 
-	public void setNivell(int nivell) {
+	public void setNivell(String nivell) {
 		this.nivell = nivell;
 	}
 
-	public int getRegim() {
+	public String getRegim() {
 		return regim;
 	}
 
-	public void setRegim(int regim) {
+	public void setRegim(String regim) {
 		this.regim = regim;
 	}
 
 	@Override
 	public String toString() {
 		return "Grup [id=" + id + ", codi=" + codi + ", nom=" + nom + ", etapa=" + etapa + ", subetapa=" + subetapa
-				+ ", nivell=" + nivell + ", regim=" + regim + "]\n";
+				+ ", nivell=" + nivell + ", regim=" + regim + ", ListaAlumne=" + ListaAlumne + "]\n";
 	}
+
 	
 	
 }
