@@ -19,10 +19,5 @@ public class testXMLPla {
 	
 		LecturaXMLPlansEstudi lxml = new LecturaXMLPlansEstudi();
 		lxml.LecturaXML(nomdoc);
-
-	
-		
 	}
-
-
 }
