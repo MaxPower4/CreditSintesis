@@ -1,19 +1,21 @@
 package Alumnes;
 
-import java.sql.Date;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Alumnes {
 	private String id;
 	private String nom;
 	private String cognom1;
 	private String cognom2;
-	private Date datanaixement;
+	private String datanaixement;
 	private String documentidentitat;
-	private char tipusDocument;
-	private char sexe;
+	private String tipusDocument;
+	private String sexe;
+	List<Contacte> listaConctacte;
 	
-	public Alumnes(String id, String nom, String cognom1, String cognom2, Date datanaixement, String documentidentitat,
-			char tipusDocument, char sexe) {
+	public Alumnes(String id, String nom, String cognom1, String cognom2, String datanaixement, String documentidentitat,
+			String tipusDocument, String sexe,List<Contacte> _listaConctacte) {
 		super();
 		this.id = id;
 		this.nom = nom;
@@ -23,6 +25,16 @@ public class Alumnes {
 		this.documentidentitat = documentidentitat;
 		this.tipusDocument = tipusDocument;
 		this.sexe = sexe;
+		this.listaConctacte = new ArrayList<>();
+		listaConctacte.addAll(_listaConctacte);
+	}
+
+	public List<Contacte> getListaConctacte() {
+		return listaConctacte;
+	}
+
+	public void setListaConctacte(Contacte listaConctacte) {
+		this.listaConctacte.add(listaConctacte);
 	}
 
 	public String getId() {
@@ -57,11 +69,11 @@ public class Alumnes {
 		this.cognom2 = cognom2;
 	}
 
-	public Date getDatanaixement() {
+	public String getDatanaixement() {
 		return datanaixement;
 	}
 
-	public void setDatanaixement(Date datanaixement) {
+	public void setDatanaixement(String datanaixement) {
 		this.datanaixement = datanaixement;
 	}
 
@@ -73,19 +85,19 @@ public class Alumnes {
 		this.documentidentitat = documentidentitat;
 	}
 
-	public char getTipusDocument() {
+	public String getTipusDocument() {
 		return tipusDocument;
 	}
 
-	public void setTipusDocument(char tipusDocument) {
+	public void setTipusDocument(String tipusDocument) {
 		this.tipusDocument = tipusDocument;
 	}
 
-	public char getSexe() {
+	public String getSexe() {
 		return sexe;
 	}
 
-	public void setSexe(char sexe) {
+	public void setSexe(String sexe) {
 		this.sexe = sexe;
 	}
 
