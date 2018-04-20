@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Random;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -52,7 +53,7 @@ public class LecturaXMLPersonal {
 
 			// Recorrem la llista
 
-			for (int i = 1; i < llistaEstudiants.getLength(); i++) {
+			for (int i = 0; i < llistaEstudiants.getLength(); i++) {
 				Node estudiant = llistaEstudiants.item(i);
 				//System.out.println("Element: " + estudiant.getNodeName());
 				if (estudiant.getNodeType() == Node.ELEMENT_NODE) { // Si es un
@@ -73,10 +74,12 @@ public class LecturaXMLPersonal {
 				}
 			}
 				ConvertiJson(listaPersonal);
+				creaUserProfessor(listaPersonal);
 		} else {
 			System.out.println("No existeix el document que vols llegir\n");
 		}
 	}
+	
 	public static void ConvertiJson(ArrayList listaPersonal){
 		MongoClient mongoClient = ConnexioMongoDB();
 		 // Now connect to your databases
@@ -97,7 +100,7 @@ public class LecturaXMLPersonal {
 			document.put("Nom", p.getNom());
 			document.put("Cognom1", p.getCognom1());
 			document.put("Cognom2", p.getCognom2());
-			document.put("Document Identitat", p.getDocumentidentitat());
+			document.put("DocumentIdentitat", p.getDocumentidentitat());
 			
 			searchQuery1.put("ID", p.getId());
 			DBCursor cursor = coll.find(searchQuery1);
@@ -129,4 +132,54 @@ public class LecturaXMLPersonal {
         
         return mongoClient;
 	}
+	
+	public static void creaUserProfessor(ArrayList listaPersonal){
+		MongoClient mongoClient = ConnexioMongoDB();
+		 // Now connect to your databases
+        DB db = mongoClient.getDB("Absencies");
+        db.createCollection("Login", null);
+        
+		Personal p;
+		DBCollection coll = db.getCollection("Login");
+		BasicDBObject searchQuery1 = new BasicDBObject();
+         
+       
+		for(int i=0; i< listaPersonal.size(); i++){
+			boolean trobat = false;
+			p = (Personal) listaPersonal.get(i);
+			DBObject document = new BasicDBObject();
+			document.put("User", p.getDocumentidentitat());
+			String password = p.getCognom1()+generaContraseñaAlumne("ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",3);
+			//Reemplaçem tots els espais amb blanc per res
+			password = password.replaceAll("\\s","");
+			
+			document.put("Password", password);
+			document.put("Tipus", "Professor");
+			document.put("IDProfessor", p.getId());
+			
+			searchQuery1.put("IDProfessor", p.getId());
+			DBCursor cursor = coll.find(searchQuery1);
+			while (cursor.hasNext()) {
+				String ID = (String) cursor.next().get("IDProfessor");
+				trobat = p.getId().equals(ID);
+				if(trobat){
+					System.out.println("Ja exixteix el USER amb ID: " + p.getId());
+				}
+            }
+			if(trobat == false){
+				System.out.println("Usuari inserit correctament amb ID: " + p.getId());
+				coll.insert(document);
+			}	
+		}
+	}
+	public static String generaContraseñaAlumne(String candidateChars, int length){
+	    StringBuilder sb = new StringBuilder();
+	    Random random = new Random();
+	    for (int i = 0; i < length; i++) {
+	        sb.append(candidateChars.charAt(random.nextInt(candidateChars
+	                .length())));
+	    }
+
+	    return sb.toString();
+}
 }

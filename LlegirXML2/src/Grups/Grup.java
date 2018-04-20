@@ -3,24 +3,24 @@ package Grups;
 import java.util.ArrayList;
 
 public class Grup {
-	private String id;
-	private String codi;
-	private String nom;
-	private String etapa;
-	private String subetapa;
-	private String nivell;
-	private String regim;
+	private String ID;
+	private String Codi;
+	private String Nom;
+	private String Etapa;
+	private String Subetapa;
+	private String Nivell;
+	private String Regim;
 	ArrayList<Alumne> ListaAlumne = new ArrayList<Alumne>();
 	
 	public Grup(String id, String codi, String nom, String etapa, String subetapa, String nivell, String regim, ArrayList<Alumne> ListaAlumne) {
 		super();
-		this.id = id;
-		this.codi = codi;
-		this.nom = nom;
-		this.etapa = etapa;
-		this.subetapa = subetapa;
-		this.nivell = nivell;
-		this.regim = regim;
+		this.ID = id;
+		this.Codi = codi;
+		this.Nom = nom;
+		this.Etapa = etapa;
+		this.Subetapa = subetapa;
+		this.Nivell = nivell;
+		this.Regim = regim;
 		this.ListaAlumne.addAll(ListaAlumne);
 	}
 
@@ -33,65 +33,65 @@ public class Grup {
 	}
 
 	public String getId() {
-		return id;
+		return ID;
 	}
 
 	public void setId(String id) {
-		this.id = id;
+		this.ID = id;
 	}
 
 	public String getCodi() {
-		return codi;
+		return Codi;
 	}
 
 	public void setCodi(String codi) {
-		this.codi = codi;
+		this.Codi = codi;
 	}
 
 	public String getNom() {
-		return nom;
+		return Nom;
 	}
 
 	public void setNom(String nom) {
-		this.nom = nom;
+		this.Nom = nom;
 	}
 
 	public String getEtapa() {
-		return etapa;
+		return Etapa;
 	}
 
 	public void setEtapa(String etapa) {
-		this.etapa = etapa;
+		this.Etapa = etapa;
 	}
 
 	public String getSubetapa() {
-		return subetapa;
+		return Subetapa;
 	}
 
 	public void setSubetapa(String subetapa) {
-		this.subetapa = subetapa;
+		this.Subetapa = subetapa;
 	}
 
 	public String getNivell() {
-		return nivell;
+		return Nivell;
 	}
 
 	public void setNivell(String nivell) {
-		this.nivell = nivell;
+		this.Nivell = nivell;
 	}
 
 	public String getRegim() {
-		return regim;
+		return Regim;
 	}
 
 	public void setRegim(String regim) {
-		this.regim = regim;
+		this.Regim = regim;
 	}
 
 	@Override
 	public String toString() {
-		return "Grup [id=" + id + ", codi=" + codi + ", nom=" + nom + ", etapa=" + etapa + ", subetapa=" + subetapa
-				+ ", nivell=" + nivell + ", regim=" + regim + ", ListaAlumne=" + ListaAlumne + "]\n";
+		return "Grup [id=" + ID + ", codi=" + Codi + ", nom=" + Nom + ", etapa=" + Etapa + ", subetapa=" + Subetapa
+				+ ", nivell=" + Nivell + ", regim=" + Regim + ", ListaAlumne=" + ListaAlumne + "]\n";
 	}
 
 	

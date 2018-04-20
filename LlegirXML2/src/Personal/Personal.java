@@ -1,74 +1,74 @@
 package Personal;
 
-public class Personal {
-	private String id;
-	private String tipus;
-	private String nom;
-	private String cognom1;
-	private String cognom2;
-	private String documentidentitat;
+public class Personal{
+	private String ID;
+	private String Tipus;
+	private String Nom;
+	private String Cognom1;
+	private String Cognom2;
+	private String DocumentIdentitat;
 	
 	public Personal(String id, String tipus, String nom, String cognom1, String cognom2, String documentidentitat) {
 		super();
-		this.id = id;
-		this.tipus = tipus;
-		this.nom = nom;
-		this.cognom1 = cognom1;
-		this.cognom2 = cognom2;
-		this.documentidentitat = documentidentitat;
+		this.ID = id;
+		this.Tipus = tipus;
+		this.Nom = nom;
+		this.Cognom1 = cognom1;
+		this.Cognom2 = cognom2;
+		this.DocumentIdentitat = documentidentitat;
 	}
 
 	public String getId() {
-		return id;
+		return ID;
 	}
 
 	public void setId(String id) {
-		this.id = id;
+		this.ID = id;
 	}
 
 	public String getTipus() {
-		return tipus;
+		return Tipus;
 	}
 
 	public void setTipus(String tipus) {
-		this.tipus = tipus;
+		this.Tipus = tipus;
 	}
 
 	public String getNom() {
-		return nom;
+		return Nom;
 	}
 
 	public void setNom(String nom) {
-		this.nom = nom;
+		this.Nom = nom;
 	}
 
 	public String getCognom1() {
-		return cognom1;
+		return Cognom1;
 	}
 
 	public void setCognom1(String cognom1) {
-		this.cognom1 = cognom1;
+		this.Cognom1 = cognom1;
 	}
 
 	public String getCognom2() {
-		return cognom2;
+		return Cognom2;
 	}
 
 	public void setCognom2(String cognom2) {
-		this.cognom2 = cognom2;
+		this.Cognom2 = cognom2;
 	}
 
 	public String getDocumentidentitat() {
-		return documentidentitat;
+		return DocumentIdentitat;
 	}
 
 	public void setDocumentidentitat(String documentidentitat) {
-		this.documentidentitat = documentidentitat;
+		this.DocumentIdentitat = documentidentitat;
 	}
 
 	@Override
 	public String toString() {
-		return "Personal [id=" + id + ", tipus=" + tipus + ", nom=" + nom + ", cognom1=" + cognom1 + ", cognom2="
-				+ cognom2 + ", documentidentitat=" + documentidentitat + "]\n";
+		return "Personal [id=" + ID + ", tipus=" + Tipus + ", nom=" + Nom + ", cognom1=" + Cognom1 + ", cognom2="
+				+ Cognom2 + ", documentidentitat=" + DocumentIdentitat + "]\n";
 	}
 }

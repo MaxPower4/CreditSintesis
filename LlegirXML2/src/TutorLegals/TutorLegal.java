@@ -2,138 +2,138 @@ package TutorLegals;
 
 public class TutorLegal {
 	
-	private String id;
-	private String nom;
-	private String cognom1;
-	private String cognom2;
-	private String adreca;
-	private String codiPostal;
-	private String localitat;
-	private String nomlocalitat;
-	private String provincia;
-	private String sexe;
-	private String documentidentitat;
-	private String tipusDocument;
+	private String ID;
+	private String Nom;
+	private String Cognom1;
+	private String Cognom2;
+	private String Adreca;
+	private String CodiPostal;
+	private String Localitat;
+	private String NomLocalitat;
+	private String Provincia;
+	private String Sexe;
+	private String DocumentIdentitat;
+	private String TipusDocument;
 	
 	public TutorLegal(String id, String nom, String cognom1, String cognom2, String adreca, String codiPostal,
 			String localitat, String nomlocalitat, String provincia, String sexe, String documentidentitat,
 			String tipusDocument) {
 		super();
-		this.id = id;
-		this.nom = nom;
-		this.cognom1 = cognom1;
-		this.cognom2 = cognom2;
-		this.adreca = adreca;
-		this.codiPostal = codiPostal;
-		this.localitat = localitat;
-		this.nomlocalitat = nomlocalitat;
-		this.provincia = provincia;
-		this.sexe = sexe;
-		this.documentidentitat = documentidentitat;
-		this.tipusDocument = tipusDocument;
+		this.ID = id;
+		this.Nom = nom;
+		this.Cognom1 = cognom1;
+		this.Cognom2 = cognom2;
+		this.Adreca = adreca;
+		this.CodiPostal = codiPostal;
+		this.Localitat = localitat;
+		this.NomLocalitat = nomlocalitat;
+		this.Provincia = provincia;
+		this.Sexe = sexe;
+		this.DocumentIdentitat = documentidentitat;
+		this.TipusDocument = tipusDocument;
 	}
 
 	public String getId() {
-		return id;
+		return ID;
 	}
 
 	public void setId(String id) {
-		this.id = id;
+		this.ID = id;
 	}
 
 	public String getNom() {
-		return nom;
+		return Nom;
 	}
 
 	public void setNom(String nom) {
-		this.nom = nom;
+		this.Nom = nom;
 	}
 
 	public String getCognom1() {
-		return cognom1;
+		return Cognom1;
 	}
 
 	public void setCognom1(String cognom1) {
-		this.cognom1 = cognom1;
+		this.Cognom1 = cognom1;
 	}
 
 	public String getCognom2() {
-		return cognom2;
+		return Cognom2;
 	}
 
 	public void setCognom2(String cognom2) {
-		this.cognom2 = cognom2;
+		this.Cognom2 = cognom2;
 	}
 
 	public String getAdreca() {
-		return adreca;
+		return Adreca;
 	}
 
 	public void setAdreca(String adreca) {
-		this.adreca = adreca;
+		this.Adreca = adreca;
 	}
 
 	public String getCodiPostal() {
-		return codiPostal;
+		return CodiPostal;
 	}
 
 	public void setCodiPostal(String codiPostal) {
-		this.codiPostal = codiPostal;
+		this.CodiPostal = codiPostal;
 	}
 
 	public String getLocalitat() {
-		return localitat;
+		return Localitat;
 	}
 
 	public void setLocalitat(String localitat) {
-		this.localitat = localitat;
+		this.Localitat = localitat;
 	}
 
 	public String getNomlocalitat() {
-		return nomlocalitat;
+		return NomLocalitat;
 	}
 
 	public void setNomlocalitat(String nomlocalitat) {
-		this.nomlocalitat = nomlocalitat;
+		this.NomLocalitat = nomlocalitat;
 	}
 
 	public String getProvincia() {
-		return provincia;
+		return Provincia;
 	}
 
 	public void setProvincia(String provincia) {
-		this.provincia = provincia;
+		this.Provincia = provincia;
 	}
 
 	public String getSexe() {
-		return sexe;
+		return Sexe;
 	}
 
 	public void setSexe(String sexe) {
-		this.sexe = sexe;
+		this.Sexe = sexe;
 	}
 
 	public String getDocumentidentitat() {
-		return documentidentitat;
+		return DocumentIdentitat;
 	}
 
 	public void setDocumentidentitat(String documentidentitat) {
-		this.documentidentitat = documentidentitat;
+		this.DocumentIdentitat = documentidentitat;
 	}
 
 	public String getTipusDocument() {
-		return tipusDocument;
+		return TipusDocument;
 	}
 
 	public void setTipusDocument(String tipusDocument) {
-		this.tipusDocument = tipusDocument;
+		this.TipusDocument = tipusDocument;
 	}
 
 	@Override
 	public String toString() {
-		return "TutorLegal [id=" + id + ", nom=" + nom + ", cognom1=" + cognom1 + ", cognom2=" + cognom2 + ", adreca="
-				+ adreca + ", codiPostal=" + codiPostal + ", localitat=" + localitat + ", nomlocalitat=" + nomlocalitat
-				+ ", provincia=" + provincia + ", sexe=" + sexe + ", documentidentitat=" + documentidentitat
-				+ ", tipusDocument=" + tipusDocument + "]";
+		return "TutorLegal [id=" + ID + ", nom=" + Nom + ", cognom1=" + Cognom1 + ", cognom2=" + Cognom2 + ", adreca="
+				+ Adreca + ", codiPostal=" + CodiPostal + ", localitat=" + Localitat + ", nomlocalitat=" + NomLocalitat
+				+ ", provincia=" + Provincia + ", sexe=" + Sexe + ", documentidentitat=" + DocumentIdentitat
+				+ ", tipusDocument=" + TipusDocument + "]";
 	}
 }

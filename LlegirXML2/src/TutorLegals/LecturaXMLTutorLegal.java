@@ -99,12 +99,12 @@ public class LecturaXMLTutorLegal {
 			document.put("Cognom1", p.getCognom1());
 			document.put("Cognom2", p.getCognom2());
 			document.put("Adreça", p.getAdreca());
-			document.put("Codi Postal", p.getCodiPostal());
+			document.put("CodiPostal", p.getCodiPostal());
 			document.put("Localitat", p.getLocalitat());
 			document.put("NomLocalitat", p.getNomlocalitat());
 			document.put("Provincia", p.getProvincia());
 			document.put("Sexe", p.getSexe());
-			document.put("Document Identitat", p.getDocumentidentitat());
+			document.put("DocumentIdentitat", p.getDocumentidentitat());
 			document.put("TipusDocument", p.getTipusDocument());
 			
 			searchQuery1.put("ID", p.getId());

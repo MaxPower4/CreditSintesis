@@ -3,32 +3,36 @@ package Alumnes;
 import java.util.ArrayList;
 import java.util.List;
 
+//Clase Alumne
 public class Alumnes {
-	private String id;
-	private String nom;
-	private String cognom1;
-	private String cognom2;
-	private String datanaixement;
-	private String documentidentitat;
-	private String tipusDocument;
-	private String sexe;
+	private String ID;
+	private String Nom;
+	private String Cognom1;
+	private String Cognom2;
+	private String DataNaixement;
+	private String DocumentIdentitat;
+	private String TipusDocument;
+	private String Sexe;
+	//Lista dels contanctes dels alumnes
 	List<Contacte> listaConctacte;
 	
+	//Constructor amb tots els parametres
 	public Alumnes(String id, String nom, String cognom1, String cognom2, String datanaixement, String documentidentitat,
 			String tipusDocument, String sexe,List<Contacte> _listaConctacte) {
 		super();
-		this.id = id;
-		this.nom = nom;
-		this.cognom1 = cognom1;
-		this.cognom2 = cognom2;
-		this.datanaixement = datanaixement;
-		this.documentidentitat = documentidentitat;
-		this.tipusDocument = tipusDocument;
-		this.sexe = sexe;
+		this.ID = id;
+		this.Nom = nom;
+		this.Cognom1 = cognom1;
+		this.Cognom2 = cognom2;
+		this.DataNaixement = datanaixement;
+		this.DocumentIdentitat = documentidentitat;
+		this.TipusDocument = tipusDocument;
+		this.Sexe = sexe;
 		this.listaConctacte = new ArrayList<>();
 		listaConctacte.addAll(_listaConctacte);
 	}
 
+	//Setters i Getters
 	public List<Contacte> getListaConctacte() {
 		return listaConctacte;
 	}
@@ -38,77 +42,73 @@ public class Alumnes {
 	}
 
 	public String getId() {
-		return id;
+		return ID;
 	}
 
 	public void setId(String id) {
-		this.id = id;
+		this.ID = id;
 	}
 
 	public String getNom() {
-		return nom;
+		return Nom;
 	}
 
 	public void setNom(String nom) {
-		this.nom = nom;
+		this.Nom = nom;
 	}
 
 	public String getCognom1() {
-		return cognom1;
+		return Cognom1;
 	}
 
 	public void setCognom1(String cognom1) {
-		this.cognom1 = cognom1;
+		this.Cognom1 = cognom1;
 	}
 
 	public String getCognom2() {
-		return cognom2;
+		return Cognom2;
 	}
 
 	public void setCognom2(String cognom2) {
-		this.cognom2 = cognom2;
+		this.Cognom2 = cognom2;
 	}
 
 	public String getDatanaixement() {
-		return datanaixement;
+		return DataNaixement;
 	}
 
 	public void setDatanaixement(String datanaixement) {
-		this.datanaixement = datanaixement;
+		this.DataNaixement = datanaixement;
 	}
 
 	public String getDocumentidentitat() {
-		return documentidentitat;
+		return DocumentIdentitat;
 	}
 
 	public void setDocumentidentitat(String documentidentitat) {
-		this.documentidentitat = documentidentitat;
+		this.DocumentIdentitat = documentidentitat;
 	}
 
 	public String getTipusDocument() {
-		return tipusDocument;
+		return TipusDocument;
 	}
 
 	public void setTipusDocument(String tipusDocument) {
-		this.tipusDocument = tipusDocument;
+		this.TipusDocument = tipusDocument;
 	}
 
 	public String getSexe() {
-		return sexe;
+		return Sexe;
 	}
 
 	public void setSexe(String sexe) {
-		this.sexe = sexe;
+		this.Sexe = sexe;
 	}
 
 	@Override
 	public String toString() {
-		return "Alumnes [id=" + id + ", nom=" + nom + ", cognom1=" + cognom1 + ", cognom2=" + cognom2
-				+ ", datanaixement=" + datanaixement + ", documentidentitat=" + documentidentitat + ", tipusDocument="
-				+ tipusDocument + ", sexe=" + sexe + "]\n";
+		return "Alumnes [id=" + ID + ", nom=" + Nom + ", cognom1=" + Cognom1 + ", cognom2=" + Cognom2
+				+ ", datanaixement=" + DataNaixement + ", documentidentitat=" + DocumentIdentitat + ", tipusDocument="
+				+ TipusDocument + ", sexe=" + Sexe + "]\n";
 	}
-	
-	
-	
-	
 }

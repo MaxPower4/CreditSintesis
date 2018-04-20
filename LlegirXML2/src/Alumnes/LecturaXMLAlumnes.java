@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Random;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -96,6 +97,7 @@ public class LecturaXMLAlumnes {
 					}
 				}
 				ConvertiJson(listaAlumnes, listaContactes);
+				creaUserAlumne(listaAlumnes);
 			}
 		} else {
 			System.out.println("No existeix el document que vols llegir\n");
@@ -159,5 +161,56 @@ public class LecturaXMLAlumnes {
 		}
 
 		return mongoClient;
+	}
+	
+	public static void creaUserAlumne(ArrayList listaAlumnes){
+		MongoClient mongoClient = ConnexioMongoDB();
+		// Now connect to your databases
+		DB db = mongoClient.getDB("Absencies");
+		db.createCollection("Login", null);
+
+		Alumnes a;
+		DBCollection coll = db.getCollection("Login");
+		BasicDBObject searchQuery1 = new BasicDBObject();
+
+		for (int i = 0; i < listaAlumnes.size(); i++) {
+			boolean trobat = false;
+			a = (Alumnes) listaAlumnes.get(i);
+			DBObject document = new BasicDBObject();
+			document.put("User", a.getDocumentidentitat());
+			String password = a.getCognom1()+generaContraseñaAlumne("ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",3);
+			
+			password = password.replaceAll("\\s","");
+			
+			document.put("Password", password);
+			document.put("Tipus", "Alumne");
+			document.put("IDAlumne", a.getId());
+
+			searchQuery1.put("IDAlumne", a.getId());
+			DBCursor cursor = coll.find(searchQuery1);
+			while (cursor.hasNext()) {
+				String ID = (String) cursor.next().get("IDAlumne");
+				trobat = a.getId().equals(ID);
+				if (trobat) {
+					System.out.println("Ja exixteix el USER amb ID: " + a.getId());
+				}
+			}
+			if (trobat == false) {
+				System.out.println("Usuari inserit correctament amb ID: " + a.getId());
+				coll.insert(document);
+			}
+
+		}
+	}
+	
+	public static String generaContraseñaAlumne(String candidateChars, int length){
+		    StringBuilder sb = new StringBuilder();
+		    Random random = new Random();
+		    for (int i = 0; i < length; i++) {
+		        sb.append(candidateChars.charAt(random.nextInt(candidateChars
+		                .length())));
+		    }
+
+		    return sb.toString();
 	}
 }

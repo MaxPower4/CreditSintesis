@@ -1,5 +1,6 @@
 package Alumnes;
 
+//Clase Contacte dels Alumnes
 public class Contacte {
 	private String contacte;
 	private String tipus;

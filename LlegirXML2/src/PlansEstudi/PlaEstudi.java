@@ -5,16 +5,16 @@ import java.util.List;
 
 public class PlaEstudi {
 	private String ID;
-	private String etapa;
-	private String subetapa;
-	private String nom;
+	private String Etapa;
+	private String Subetapa;
+	private String Nom;
 	List<ContingutPla> listaContinguts;
 	
 	public PlaEstudi(String iD, String etapa, String subetapa, String nom, List<ContingutPla> _listaContinguts) {
 		ID = iD;
-		this.etapa = etapa;
-		this.subetapa = subetapa;
-		this.nom = nom;
+		this.Etapa = etapa;
+		this.Subetapa = subetapa;
+		this.Nom = nom;
 		listaContinguts = new ArrayList<>();
 		listaContinguts.addAll(_listaContinguts);
 	}
@@ -36,32 +36,32 @@ public class PlaEstudi {
 	}
 
 	public String getEtapa() {
-		return etapa;
+		return Etapa;
 	}
 
 	public void setEtapa(String etapa) {
-		this.etapa = etapa;
+		this.Etapa = etapa;
 	}
 
 	public String getSubetapa() {
-		return subetapa;
+		return Subetapa;
 	}
 
 	public void setSubetapa(String subetapa) {
-		this.subetapa = subetapa;
+		this.Subetapa = subetapa;
 	}
 
 	public String getNom() {
-		return nom;
+		return Nom;
 	}
 
 	public void setNom(String nom) {
-		this.nom = nom;
+		this.Nom = nom;
 	}
 
 	
 	public void toString2() {
-		 System.out.println("PlaEstudi [ID=" + ID + ", etapa=" + etapa + ", subetapa=" + subetapa + ", nom=" + nom
+		 System.out.println("PlaEstudi [ID=" + ID + ", etapa=" + Etapa + ", subetapa=" + Subetapa + ", nom=" + Nom
 				+ ", listaContinguts=" + listaContinguts + "]\n");
 		 
 		 for(ContingutPla a : listaContinguts){
