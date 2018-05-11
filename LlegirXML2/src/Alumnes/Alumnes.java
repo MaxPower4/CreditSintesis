@@ -5,6 +5,7 @@ import java.util.List;
 
 //Clase Alumne
 public class Alumnes {
+	//Atributs del alumne
 	private String ID;
 	private String Nom;
 	private String Cognom1;
@@ -13,7 +14,7 @@ public class Alumnes {
 	private String DocumentIdentitat;
 	private String TipusDocument;
 	private String Sexe;
-	//Lista dels contanctes dels alumnes
+	//Lista dels contanctes del alumne
 	List<Contacte> listaConctacte;
 	
 	//Constructor amb tots els parametres

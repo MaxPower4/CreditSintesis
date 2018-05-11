@@ -62,15 +62,15 @@ public class LecturaXMLAlumnes {
 					if (element.getAttribute("nom").isEmpty()) {
 						
 					}else{
-//						System.out.println("\n");
-//						System.out.print("\nID: " + element.getAttribute("id"));
-//						System.out.print("\nNom: " + element.getAttribute("nom"));
-//						System.out.print("\nCognom1: " + element.getAttribute("cognom1"));
-//						System.out.print("\nCognom2: " + element.getAttribute("cognom2"));
-//						System.out.print("\nData-naixament: " + element.getAttribute("datanaixament"));
-//						System.out.print("\nDocument-identitat: " + element.getAttribute("documentidentitat"));
-//						System.out.print("\nTipus-document: " + element.getAttribute("tipusdocument"));
-//						System.out.println("\nSexe: " + element.getAttribute("sexe"));
+						System.out.println("\n");
+						System.out.print("\nID: " + element.getAttribute("id"));
+						System.out.print("\nNom: " + element.getAttribute("nom"));
+						System.out.print("\nCognom1: " + element.getAttribute("cognom1"));
+						System.out.print("\nCognom2: " + element.getAttribute("cognom2"));
+						System.out.print("\nData-naixament: " + element.getAttribute("datanaixament"));
+						System.out.print("\nDocument-identitat: " + element.getAttribute("documentidentitat"));
+						System.out.print("\nTipus-document: " + element.getAttribute("tipusdocument"));
+						System.out.println("\nSexe: " + element.getAttribute("sexe"));
 						
 					listaContactes = new ArrayList<>();
 					// llista de nodes de les assignatures
@@ -105,16 +105,23 @@ public class LecturaXMLAlumnes {
 
 	}
 	
+	//Metode per converti la llista dels alumnes conjunt amb la llista dels seus contactes a JSON per fer el insert a la base de datos de Mongo.
 	public static void ConvertiJson(ArrayList listaAlumnes, ArrayList listaContactes) {
+		//Conexio a Mongo
 		MongoClient mongoClient = ConnexioMongoDB();
-		// Now connect to your databases
+		//Agafem la BD de Absencies
 		DB db = mongoClient.getDB("Absencies");
+		//Creem la colecio d'Alumnes si no exixteix.
 		db.createCollection("Alumnes", null);
 
+		//Objecte Alumne.
 		Alumnes a;
+		//Agafem la collecio d'Alumnes.
 		DBCollection coll = db.getCollection("Alumnes");
+		//El objecte per fer una busqueda.
 		BasicDBObject searchQuery1 = new BasicDBObject();
 
+		//Bucle per recore la lista de alumnes
 		for (int i = 0; i < listaAlumnes.size(); i++) {
 			boolean trobat = false;
 			a = (Alumnes) listaAlumnes.get(i);
@@ -128,9 +135,11 @@ public class LecturaXMLAlumnes {
 			document.put("TipusDocument", a.getTipusDocument());
 			document.put("Sexe", a.getSexe());
 
+			//Pasem la llista de Contactes a JSON i el guardem en un String
 			String json = new Gson().toJson(listaContactes);
 			document.put("Contacte", json);
 
+			//Fem una busqueda per ID per comproba que no exixteix ja.
 			searchQuery1.put("ID", a.getId());
 			DBCursor cursor = coll.find(searchQuery1);
 			while (cursor.hasNext()) {
@@ -140,21 +149,23 @@ public class LecturaXMLAlumnes {
 					System.out.println("Ja exixteix el ID: " + a.getId());
 				}
 			}
+			//Si no trobe el ID que volem inseri el insereix.
 			if (trobat == false) {
 				System.out.println("Personal inserit amb ID: " + a.getId());
+				//Insercio a la BD.
 				coll.insert(document);
 			}
 
 		}
 	}
 
+	//Metode per conectar-nos a la BD.
 	public static MongoClient ConnexioMongoDB() {
-		// To connect to mongodb server
-		MongoClient mongoClient = new MongoClient("10.10.10.11", 27017);
+		// Ens conectem a la IP i al Port especificat
+		MongoClient mongoClient = new MongoClient("192.168.0.202", 27017);
 
-		// Now connect to your databases
+		//Ens conectem a la BD Absencies
 		DB db = mongoClient.getDB("Absencies");
-		DBCollection coll = db.getCollection("Login");
 
 		if (db != null) {
 			System.out.println("Connect to database successfully");
@@ -163,6 +174,7 @@ public class LecturaXMLAlumnes {
 		return mongoClient;
 	}
 	
+	//Metode per crea el Login de l'Usuari.(User = DNI -- Password = Cognom1+3caracters randoms)
 	public static void creaUserAlumne(ArrayList listaAlumnes){
 		MongoClient mongoClient = ConnexioMongoDB();
 		// Now connect to your databases

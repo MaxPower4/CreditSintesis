@@ -60,14 +60,14 @@ public class LecturaXMLGrups {
 					// Obtenir els elements del node
 					Element element = (Element) estudiant;
 
-					/*System.out.println("\n");
+					System.out.println("\n");
 					System.out.print("\nIDListaGrup: " + element.getAttribute("id"));
 					System.out.print("\nCodi: " + element.getAttribute("codi"));
 					System.out.print("\nNom: " + element.getAttribute("nom"));
 					System.out.print("\nEtapa: " + element.getAttribute("etapa"));
 					System.out.print("\nSubetapa: " + element.getAttribute("subetapa"));
 					System.out.print("\nNivell: " + element.getAttribute("nivell"));
-					System.out.print("\nRegim: " + element.getAttribute("regim"));*/
+					System.out.print("\nRegim: " + element.getAttribute("regim"));
 
 					ListaAlumne = new ArrayList();
 					
@@ -151,7 +151,7 @@ public class LecturaXMLGrups {
 	
 	public static MongoClient ConnexioMongoDB() {
 		// To connect to mongodb server
-		MongoClient mongoClient = new MongoClient("10.10.10.11", 27017);
+		MongoClient mongoClient = new MongoClient("192.168.0.202", 27017);
 
 		// Now connect to your databases
 		DB db = mongoClient.getDB("Absencies");

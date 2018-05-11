@@ -53,7 +53,7 @@ public class LecturaXMLPersonal {
 
 			// Recorrem la llista
 
-			for (int i = 0; i < llistaEstudiants.getLength(); i++) {
+			for (int i = 1; i < llistaEstudiants.getLength(); i++) {
 				Node estudiant = llistaEstudiants.item(i);
 				//System.out.println("Element: " + estudiant.getNodeName());
 				if (estudiant.getNodeType() == Node.ELEMENT_NODE) { // Si es un

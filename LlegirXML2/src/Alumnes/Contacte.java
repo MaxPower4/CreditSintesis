@@ -1,11 +1,13 @@
 package Alumnes;
 
-//Clase Contacte dels Alumnes
+//Clase Contacte del Alumne
 public class Contacte {
+	//Atributs del Contacte del Alumne
 	private String contacte;
 	private String tipus;
 	private String Descripcio;
 	
+	//Constructor amb tots el parametres
 	public Contacte(String contacte, String tipus, String descripcio) {
 		super();
 		this.contacte = contacte;
@@ -13,6 +15,7 @@ public class Contacte {
 		Descripcio = descripcio;
 	}
 
+	//Setters i Getters
 	public String getContacte() {
 		return contacte;
 	}
